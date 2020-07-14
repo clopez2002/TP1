@@ -1,19 +1,20 @@
 package Producto;
 
-public class Nombre {
+import org.junit.Assert;
+import org.junit.Test;
 
-    private
+import static org.junit.Assert.*;
 
-        String nombre;
+public class ProductoTest {
 
 //---------------------------------------------------------
 
-    public Nombre (String nombre)
-    {
-        this.nombre = nombre;
+    @Test
+    public void test01CreamosInstanciaDeProducto () {
+
+        Producto producto = new Producto("Ala Triple Accion 600 cc", 123);
+        Assert.assertNotNull(producto);
     }
-
-//---------------------------------------------------------
 
 //---------------------------------------------------------
 

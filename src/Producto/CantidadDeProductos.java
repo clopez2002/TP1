@@ -18,7 +18,17 @@ public class CantidadDeProductos {
 
 //---------------------------------------------------------
 
+    public int getCantidadDeProductos ()
+    {
+        return this.productos.size();
+    }
+
 //---------------------------------------------------------
+
+    public void agregarProducto (Producto producto)
+    {
+        this.productos.add(producto);
+    }
 
 //---------------------------------------------------------
 

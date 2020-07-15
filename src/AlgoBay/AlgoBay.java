@@ -14,12 +14,23 @@ public class AlgoBay {
 
     public AlgoBay ()
     {
+        this.cantidadDeProductos = new CantidadDeProductos();
+    }
 
+//---------------------------------------------------------
+    public int getCantidadDeProductos ()
+    {
+        return this.cantidadDeProductos.getCantidadDeProductos();
     }
 
 //---------------------------------------------------------
 
-//---------------------------------------------------------
+    public Producto agregarProductoConPrecio(String nombre, int precio)
+    {
+        Producto producto = new Producto(nombre,precio);
+        this.cantidadDeProductos.agregarProducto (producto);
+        return producto;
+    }
 
 //---------------------------------------------------------
 

@@ -2,25 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05d0d5af-c405-4a59-bd64-20d40928060f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Producto/CantidadDeProductos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Producto/CantidadDeProductosTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/AlgoBayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/AlgoBayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-JavaM/AlgoBay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-JavaM/AlgoBayTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/META-INF/TP1-master.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AlgoBay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/AlgoBayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/AlgoBayTestPropio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/AlgoBay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/AlgoBayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TP1-master/AlgoBayTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Producto/CantidadDeProductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Producto/CantidadDeProductos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TP1" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -47,30 +50,39 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="AlgoBay" />
       <recent name="Producto" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NombreTest.test01CreamosInstanciaDeNombre">
-    <configuration name="NombreTest.test01CreamosInstanciaDeNombre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in TP1-master">
+    <configuration name="AlgoBayTest.test01AgregarProductos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Producto.*" />
+          <option name="PATTERN" value="AlgoBay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Producto" />
-      <option name="MAIN_CLASS_NAME" value="Producto.NombreTest" />
-      <option name="METHOD_NAME" value="test01CreamosInstanciaDeNombre" />
+      <option name="PACKAGE_NAME" value="AlgoBay" />
+      <option name="MAIN_CLASS_NAME" value="AlgoBay.AlgoBayTest" />
+      <option name="METHOD_NAME" value="test01AgregarProductos" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrecioTest.test01CreamosInstanciaDePrecio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in TP1-master" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP1-master" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CantidadDeProductosTest.test01CreamosInstanciaDeCantidadDeProductos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <extension name="coverage">
         <pattern>
@@ -79,14 +91,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Producto" />
-      <option name="MAIN_CLASS_NAME" value="Producto.PrecioTest" />
-      <option name="METHOD_NAME" value="test01CreamosInstanciaDePrecio" />
+      <option name="MAIN_CLASS_NAME" value="Producto.CantidadDeProductosTest" />
+      <option name="METHOD_NAME" value="test01CreamosInstanciaDeCantidadDeProductos" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductoTest.test01CreamosInstanciaDeProducto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CantidadDeProductosTest.test02ObtenemosCantidadDeProductosPorDefectos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +107,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Producto" />
-      <option name="MAIN_CLASS_NAME" value="Producto.ProductoTest" />
-      <option name="METHOD_NAME" value="test01CreamosInstanciaDeProducto" />
+      <option name="MAIN_CLASS_NAME" value="Producto.CantidadDeProductosTest" />
+      <option name="METHOD_NAME" value="test02ObtenemosCantidadDeProductosPorDefectos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CantidadDeProductosTest.test03AgregamosProductoYConsultamosCuantosTenemos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP1-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Producto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Producto" />
+      <option name="MAIN_CLASS_NAME" value="Producto.CantidadDeProductosTest" />
+      <option name="METHOD_NAME" value="test03AgregamosProductoYConsultamosCuantosTenemos" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,9 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NombreTest.test01CreamosInstanciaDeNombre" />
-        <item itemvalue="JUnit.PrecioTest.test01CreamosInstanciaDePrecio" />
-        <item itemvalue="JUnit.ProductoTest.test01CreamosInstanciaDeProducto" />
+        <item itemvalue="JUnit.All in TP1-master" />
+        <item itemvalue="JUnit.AlgoBayTest.test01AgregarProductos" />
+        <item itemvalue="JUnit.CantidadDeProductosTest.test03AgregamosProductoYConsultamosCuantosTenemos" />
+        <item itemvalue="JUnit.CantidadDeProductosTest.test02ObtenemosCantidadDeProductosPorDefectos" />
+        <item itemvalue="JUnit.CantidadDeProductosTest.test01CreamosInstanciaDeCantidadDeProductos" />
       </list>
     </recent_temporary>
   </component>
@@ -156,37 +186,39 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="287" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594764276172" />
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1594777794935">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1594837579524">
       <screen x="0" y="23" width="1280" height="735" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.735@0.23.1280.735" timestamp="1594777794935" />
-    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1594777794934">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.735@0.23.1280.735" timestamp="1594837579524" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1594837579523">
       <screen x="0" y="23" width="1280" height="735" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
-    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.735@0.23.1280.735" timestamp="1594777794934" />
-    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1594777794934">
+    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.735@0.23.1280.735" timestamp="1594837579523" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1594837579523">
       <screen x="0" y="23" width="1280" height="735" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
-    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.735@0.23.1280.735" timestamp="1594777794934" />
-    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1594777794935">
+    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.735@0.23.1280.735" timestamp="1594837579523" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1594837579524">
       <screen x="0" y="23" width="1280" height="735" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
-    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.735@0.23.1280.735" timestamp="1594777794935" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.735@0.23.1280.735" timestamp="1594837579524" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1594764298948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594764298948" />
-    <state x="387" y="257" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594763550049">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="363" y="282" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594837416452">
+      <screen x="0" y="23" width="1280" height="735" />
     </state>
     <state x="387" y="257" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1594763550049" />
-    <state x="454" y="67" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1594766140344">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="363" y="282" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1280.735@0.23.1280.735" timestamp="1594837416452" />
+    <state x="425" y="91" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1594837397111">
+      <screen x="0" y="23" width="1280" height="735" />
     </state>
     <state x="454" y="67" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1594766140344" />
+    <state x="425" y="91" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.735@0.23.1280.735" timestamp="1594837397111" />
   </component>
 </project>

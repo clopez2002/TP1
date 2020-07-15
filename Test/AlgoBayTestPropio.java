@@ -1,8 +1,9 @@
 import AlgoBay.AlgoBay;
+import Producto.Producto;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class AlgoBayTest {
+public class AlgoBayTestPropio {
 
 //---------------------------------------------------------
 
@@ -14,6 +15,14 @@ public class AlgoBayTest {
     }
 
 //---------------------------------------------------------
+
+    @Test
+    public void test02CreamosProductoConPrecio () {
+
+        AlgoBay algoBay = new AlgoBay();
+        Producto producto = algoBay.agregarProductoConPrecio("Spinner",83);
+
+    }
 
 //---------------------------------------------------------
 

@@ -1,16 +1,19 @@
-import AlgoBay.AlgoBay;
-import org.junit.Assert;
-import org.junit.Test;
+package Producto;
 
-public class AlgoBayTest {
+import java.util.ArrayList;
+
+public class CantidadDeProductos {
+
+    private
+
+        ArrayList<Producto> productos;
+
 
 //---------------------------------------------------------
 
-    @Test
-    public void test01CreamosInstanciaDeAlgoBay () {
-
-        AlgoBay algoBay = new AlgoBay();
-        Assert.assertNotNull(algoBay);
+    public CantidadDeProductos ()
+    {
+        this.productos = new ArrayList<Producto>();
     }
 
 //---------------------------------------------------------
@@ -22,5 +25,4 @@ public class AlgoBayTest {
 //---------------------------------------------------------
 
 //---------------------------------------------------------
-
 }

@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05d0d5af-c405-4a59-bd64-20d40928060f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Producto/NombreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Producto/CantidadDeProductos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Producto/Nombre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Producto/Nombre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/AlgoBayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/AlgoBayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP1-JavaM/AlgoBay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/TP1-JavaM/AlgoBayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/META-INF/TP1-master.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgoBay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,7 +53,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductoTest.test01CreamosInstanciaDeProducto">
+  <component name="RunManager" selected="JUnit.NombreTest.test01CreamosInstanciaDeNombre">
     <configuration name="NombreTest.test01CreamosInstanciaDeNombre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <extension name="coverage">
@@ -99,11 +104,23 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductoTest.test01CreamosInstanciaDeProducto" />
         <item itemvalue="JUnit.NombreTest.test01CreamosInstanciaDeNombre" />
         <item itemvalue="JUnit.PrecioTest.test01CreamosInstanciaDePrecio" />
+        <item itemvalue="JUnit.ProductoTest.test01CreamosInstanciaDeProducto" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -131,26 +148,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="Se crea prueba de Precio" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="489" y="285" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1594777780704">
+      <screen x="0" y="23" width="1280" height="735" />
+    </state>
+    <state x="489" y="285" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.735@0.23.1280.735" timestamp="1594777780704" />
     <state x="287" y="0" key="CommitChangelistDialog2" timestamp="1594764276172">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="287" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594764276172" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1594766198253">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1594777794935">
+      <screen x="0" y="23" width="1280" height="735" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1594766198253">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.735@0.23.1280.735" timestamp="1594777794935" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1594777794934">
+      <screen x="0" y="23" width="1280" height="735" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1594766198253">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.735@0.23.1280.735" timestamp="1594777794934" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1594777794934">
+      <screen x="0" y="23" width="1280" height="735" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1594766198253">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.735@0.23.1280.735" timestamp="1594777794934" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1594777794935">
+      <screen x="0" y="23" width="1280" height="735" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.735@0.23.1280.735" timestamp="1594777794935" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1594764298948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -25,4 +25,16 @@ public class AlgoBayTest {
         Assert.assertNotNull(spinner);
     }
 
+    @Test
+    public void test02ObtenerProducto() {
+
+        AlgoBay algoBay = new AlgoBay();
+
+        algoBay.agregarProductoConPrecio("Moto 5G", 4399);
+
+        Producto celular = algoBay.getProducto("Moto 5G");
+
+        Assert.assertNotNull(celular);
+    }
+
 }

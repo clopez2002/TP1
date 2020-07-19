@@ -1,5 +1,6 @@
 package AlgoBay;
 
+import Excepciones.ErrorProductoNoEstaAgregado;
 import Producto.CantidadDeProductos;
 import Producto.Producto;
 
@@ -33,6 +34,11 @@ public class AlgoBay {
     }
 
 //---------------------------------------------------------
+
+    public Producto getProducto (String nombreProducto)
+    {
+        return this.cantidadDeProductos.getProducto (nombreProducto);
+    }
 
 //---------------------------------------------------------
 

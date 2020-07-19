@@ -38,6 +38,22 @@ public class CantidadDeProductosTest {
 
 //---------------------------------------------------------
 
+    @Test
+    public void test04VerificamosQuetenemosUnProductoDeterminaod () {
+
+        CantidadDeProductos cantidadDeProductos = new CantidadDeProductos();
+        Producto celular = new Producto("Samsung S6", 49999);
+        Producto tablet = new Producto("Samsung Galaxy Tab",29999);
+        Producto pc = new Producto("Mac Book Pro", 249999);
+        cantidadDeProductos.agregarProducto(celular);
+        cantidadDeProductos.agregarProducto(tablet);
+        cantidadDeProductos.agregarProducto(pc);
+        Assert.assertEquals(pc,cantidadDeProductos.getProducto("Mac Book Pro"));
+
+    }
+
+
+
 //---------------------------------------------------------
 
 }

@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05d0d5af-c405-4a59-bd64-20d40928060f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Excepciones/ErrorProductoNoEstaAgregado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Producto/CantidadDeProductosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Producto/CantidadDeProductosTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/AlgoBay/AlgoBay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1-master/AlgoBay/AlgoBay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Producto/CantidadDeProductos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1-master/Producto/CantidadDeProductos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Producto/Nombre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1-master/Producto/Nombre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Producto/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1-master/Producto/Producto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/AlgoBay/AlgoBayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TP1-master/AlgoBay/AlgoBayTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/Producto/CantidadDeProductosTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TP1-master/Producto/CantidadDeProductosTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Producto/CantidadDeProductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Producto/CantidadDeProductos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Producto/Nombre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Producto/Nombre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Producto/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Producto/Producto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,5 +221,13 @@
     </state>
     <state x="454" y="67" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1594766140344" />
     <state x="425" y="91" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.735@0.23.1280.735" timestamp="1594837397111" />
+    <state x="384" y="188" key="git4idea.merge.GitMergeDialog" timestamp="1595443949095">
+      <screen x="0" y="23" width="1280" height="733" />
+    </state>
+    <state x="384" y="188" key="git4idea.merge.GitMergeDialog/0.23.1280.733@0.23.1280.733" timestamp="1595443949095" />
+    <state x="355" y="188" key="git4idea.merge.GitPullDialog" timestamp="1595443912661">
+      <screen x="0" y="23" width="1280" height="733" />
+    </state>
+    <state x="355" y="188" key="git4idea.merge.GitPullDialog/0.23.1280.733@0.23.1280.733" timestamp="1595443912661" />
   </component>
 </project>

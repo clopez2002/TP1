@@ -18,6 +18,13 @@ public class NombreTest {
 
 //---------------------------------------------------------
 
+    @Test
+    public void test02ObtenemosNombre () {
+
+        Nombre nombre = new Nombre("Ala Matic");
+        Assert.assertEquals("Ala Matic", nombre.getNombre());
+    }
+
 //---------------------------------------------------------
 
 //---------------------------------------------------------

@@ -18,6 +18,13 @@ public class PrecioTest {
 
 //---------------------------------------------------------
 
+    @Test
+    public void test02ObtenemosPrecio () {
+
+        Precio precio = new Precio(125);
+        Assert.assertEquals(125,precio.obtenerPrecio());
+    }
+
 //---------------------------------------------------------
 
 //---------------------------------------------------------

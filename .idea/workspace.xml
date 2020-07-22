@@ -1,22 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="05d0d5af-c405-4a59-bd64-20d40928060f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/AlgoBayTestPropio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/AlgoBayTestPropio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Compra/CompraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Compra/CompraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/AlgoBay/AlgoBay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1-master/AlgoBay/AlgoBay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Compra/Compra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1-master/Compra/Compra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/AlgoBayTestPropio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TP1-master/AlgoBayTestPropio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Compra/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Compra/Compra.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="TP1" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -27,7 +49,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -35,6 +56,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -43,41 +65,30 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="AlgoBay" />
       <recent name="Producto" />
+      <recent name="Compra" />
+      <recent name="AlgoBay" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AlgoBayTest.test02ObtenerProducto">
-    <configuration name="AlgoBayTest.test01AgregarProductos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AlgoBayTestPropio.test04AgregamosProductosEnCompraVerificamosCuantosProductosAgregamos">
+    <configuration name="AlgoBayTestPropio.test02CreamosProductoConPrecio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AlgoBay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AlgoBay" />
-      <option name="MAIN_CLASS_NAME" value="AlgoBay.AlgoBayTest" />
-      <option name="METHOD_NAME" value="test01AgregarProductos" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AlgoBayTestPropio" />
+      <option name="METHOD_NAME" value="test02CreamosProductoConPrecio" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlgoBayTest.test02ObtenerProducto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlgoBayTestPropio.test04AgregamosProductosEnCompraVerificamosCuantosProductosAgregamos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AlgoBay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AlgoBay" />
-      <option name="MAIN_CLASS_NAME" value="AlgoBay.AlgoBayTest" />
-      <option name="METHOD_NAME" value="test02ObtenerProducto" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AlgoBayTestPropio" />
+      <option name="METHOD_NAME" value="test04AgregamosProductosEnCompraVerificamosCuantosProductosAgregamos" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,33 +102,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CantidadDeProductosTest.test04AgregamosProductoYLoBuscamosYElPrductoEsta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Producto.*" />
+          <option name="PATTERN" value="Compra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Producto" />
-      <option name="MAIN_CLASS_NAME" value="Producto.CantidadDeProductosTest" />
-      <option name="METHOD_NAME" value="test04AgregamosProductoYLoBuscamosYElPrductoEsta" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Compra" />
+      <option name="MAIN_CLASS_NAME" value="Compra.CompraTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CantidadDeProductosTest.test04VerificamosQuetenemosUnProductoDeterminaod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompraTest.test02AgregamosProductoACompra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Producto.*" />
+          <option name="PATTERN" value="Compra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Producto" />
-      <option name="MAIN_CLASS_NAME" value="Producto.CantidadDeProductosTest" />
-      <option name="METHOD_NAME" value="test04VerificamosQuetenemosUnProductoDeterminaod" />
+      <option name="PACKAGE_NAME" value="Compra" />
+      <option name="MAIN_CLASS_NAME" value="Compra.CompraTest" />
+      <option name="METHOD_NAME" value="test02AgregamosProductoACompra" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,25 +135,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AlgoBayTest.test02ObtenerProducto" />
-        <item itemvalue="JUnit.CantidadDeProductosTest.test04VerificamosQuetenemosUnProductoDeterminaod" />
-        <item itemvalue="JUnit.CantidadDeProductosTest.test04AgregamosProductoYLoBuscamosYElPrductoEsta" />
-        <item itemvalue="JUnit.AlgoBayTest.test01AgregarProductos" />
+        <item itemvalue="JUnit.AlgoBayTestPropio.test04AgregamosProductosEnCompraVerificamosCuantosProductosAgregamos" />
+        <item itemvalue="JUnit.CompraTest.test02AgregamosProductoACompra" />
+        <item itemvalue="JUnit.AlgoBayTestPropio.test02CreamosProductoConPrecio" />
+        <item itemvalue="JUnit.CompraTest" />
         <item itemvalue="JUnit.All in TP1-master" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -166,6 +164,17 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se crea prueba de Precio" />
     <option name="LAST_COMMIT_MESSAGE" value="Se crea prueba de Precio" />
@@ -183,28 +192,32 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="287" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594764276172" />
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1595016449733">
-      <screen x="0" y="23" width="1280" height="735" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1595439955272">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595439955272" />
     <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.735@0.23.1280.735" timestamp="1595016449733" />
     <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.736@0.23.1280.736" timestamp="1594940347691" />
-    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1595016449733">
-      <screen x="0" y="23" width="1280" height="735" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1595439955272">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595439955272" />
     <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.735@0.23.1280.735" timestamp="1595016449733" />
     <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.736@0.23.1280.736" timestamp="1594940347690" />
-    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1595016449732">
-      <screen x="0" y="23" width="1280" height="735" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1595439955272">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595439955272" />
     <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.735@0.23.1280.735" timestamp="1595016449732" />
     <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.736@0.23.1280.736" timestamp="1594940347689" />
-    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1595016449733">
-      <screen x="0" y="23" width="1280" height="735" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1595439955272">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595439955272" />
     <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.735@0.23.1280.735" timestamp="1595016449733" />
     <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.736@0.23.1280.736" timestamp="1594940347690" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1594764298948">
@@ -216,18 +229,11 @@
     </state>
     <state x="387" y="257" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1594763550049" />
     <state x="363" y="282" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1280.735@0.23.1280.735" timestamp="1594837416452" />
-    <state x="425" y="91" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1594837397111">
-      <screen x="0" y="23" width="1280" height="735" />
+    <state x="510" y="76" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595426438748">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="454" y="67" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1594766140344" />
+    <state x="510" y="76" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1595426438748" />
     <state x="425" y="91" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.735@0.23.1280.735" timestamp="1594837397111" />
-    <state x="384" y="188" key="git4idea.merge.GitMergeDialog" timestamp="1595443949095">
-      <screen x="0" y="23" width="1280" height="733" />
-    </state>
-    <state x="384" y="188" key="git4idea.merge.GitMergeDialog/0.23.1280.733@0.23.1280.733" timestamp="1595443949095" />
-    <state x="355" y="188" key="git4idea.merge.GitPullDialog" timestamp="1595443912661">
-      <screen x="0" y="23" width="1280" height="733" />
-    </state>
-    <state x="355" y="188" key="git4idea.merge.GitPullDialog/0.23.1280.733@0.23.1280.733" timestamp="1595443912661" />
   </component>
 </project>

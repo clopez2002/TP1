@@ -1,4 +1,5 @@
 import AlgoBay.AlgoBay;
+import Compra.Compra;
 import Producto.Producto;
 import org.junit.Assert;
 import org.junit.Test;
@@ -25,6 +26,14 @@ public class AlgoBayTestPropio {
     }
 
 //---------------------------------------------------------
+
+    @Test
+    public void test03CreamosCompra () {
+
+        AlgoBay algoBay = new AlgoBay();
+        Compra compra = algoBay.crearNuevaCompra();
+        Assert.assertNotNull(compra);
+    }
 
 //---------------------------------------------------------
 

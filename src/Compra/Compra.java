@@ -1,23 +1,20 @@
-package Producto;
+package Compra;
 
-public class Precio {
+import Producto.Producto;
+
+import java.util.ArrayList;
+
+public class Compra {
 
     private
 
-        int precio;
+        ArrayList<Producto> compra;
 
 //---------------------------------------------------------
 
-    public Precio (int precio)
+    public Compra ()
     {
-        this.precio = precio;
-    }
 
-//---------------------------------------------------------
-
-    public int obtenerPrecio ()
-    {
-        return this.precio;
     }
 
 //---------------------------------------------------------
@@ -28,6 +25,6 @@ public class Precio {
 
 //---------------------------------------------------------
 
-//---------------------------------------------------------
+
 
 }

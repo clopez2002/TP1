@@ -17,6 +17,7 @@ public class AlgoBay {
     public AlgoBay ()
     {
         this.cantidadDeProductos = new CantidadDeProductos();
+
     }
 
 //---------------------------------------------------------
@@ -53,6 +54,7 @@ public class AlgoBay {
     public void agregarProductoEnCompra (Producto unProducto, Compra unaCompra)
     {
         Producto unProductoBuscado = cantidadDeProductos.getProducto(unProducto.getProductName());
+        unaCompra.agregarProductoEnCompra (unProductoBuscado);
     }
 
 //---------------------------------------------------------
@@ -64,6 +66,11 @@ public class AlgoBay {
     }
 
 //---------------------------------------------------------
+
+    public int obtenerCantidadDeProductosEnCompra (Compra unaCompra)
+    {
+        return unaCompra.obtenerCantidadDeProductosEnCompra();
+    }
 
 //---------------------------------------------------------
 

@@ -14,12 +14,24 @@ public class Compra {
 
     public Compra ()
     {
-
+        this.compra = new ArrayList<Producto>();
     }
 
 //---------------------------------------------------------
 
+    public void agregarProductoEnCompra (Producto unProductoAAgregar)
+    {
+        this.compra.add(unProductoAAgregar);
+    }
+
 //---------------------------------------------------------
+
+    public int obtenerCantidadDeProductosEnCompra ()
+    {
+        return this.compra.size();
+    }
+
+
 
 //---------------------------------------------------------
 

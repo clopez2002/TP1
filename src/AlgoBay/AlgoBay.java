@@ -3,6 +3,7 @@ package AlgoBay;
 import Compra.Compra;
 import Compra.CompraSimple;
 import Compra.CompraConEnvio;
+import Compra.CompraConEnvioYGarantia;
 import Excepciones.ErrorProductoNoEstaAgregado;
 import Producto.CantidadDeProductos;
 import Producto.Producto;
@@ -56,6 +57,13 @@ public class AlgoBay {
     public Compra crearNuevaCompraConEnvio ()
     {
         return new CompraConEnvio();
+    }
+
+//---------------------------------------------------------
+
+    public Compra crearNuevaCompraConEnvioYGarantia()
+    {
+        return new CompraConEnvioYGarantia();
     }
 
 //---------------------------------------------------------

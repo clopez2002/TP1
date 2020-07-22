@@ -20,17 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05d0d5af-c405-4a59-bd64-20d40928060f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/Compra/CompraConEnvioTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Compra/CompraSimpleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Compra/CompraConEnvio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Compra/CompraSimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Compra/CompraConEnvioYGarantiaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Compra/CompraSimpleConGarantiaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Compra/CompraConEnvioYGarantia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Compra/CompraSimpleConGarantia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Compra/CompraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Compra/CompraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TP1-master/AlgoBay/AlgoBay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1-master/AlgoBay/AlgoBay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Compra/Compra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1-master/Compra/Compra.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/Compra/CompraTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TP1-master/Compra/CompraTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/AlgoBay/AlgoBayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TP1-master/AlgoBay/AlgoBayTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Compra/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Compra/Compra.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,43 +74,27 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in TP1-master">
+  <component name="RunManager" selected="JUnit.CompraSimpleConGarantiaTest.test01CreamosInstanciaDeCompraSimpleConGarantia">
+    <configuration name="AlgoBayTest.test04EnvioCuesta100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP1-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AlgoBay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AlgoBay" />
+      <option name="MAIN_CLASS_NAME" value="AlgoBay.AlgoBayTest" />
+      <option name="METHOD_NAME" value="test04EnvioCuesta100" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in TP1-master" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompraConEnvioTest.test01CremosInstanciaDeCompraConEnvio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP1-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Compra.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Compra" />
-      <option name="MAIN_CLASS_NAME" value="Compra.CompraConEnvioTest" />
-      <option name="METHOD_NAME" value="test01CremosInstanciaDeCompraConEnvio" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompraConEnvioTest.test02AgregamosCuatroProductosAlaCompraYVerificamosLaCantidadDeProductosAgregados" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP1-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Compra.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Compra" />
-      <option name="MAIN_CLASS_NAME" value="Compra.CompraConEnvioTest" />
-      <option name="METHOD_NAME" value="test02AgregamosCuatroProductosAlaCompraYVerificamosLaCantidadDeProductosAgregados" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompraSimpleTest.test03AgregamosProductosAlaCompraYObtenemosPrecioTotalDeLosProductosEnLaCompra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompraConEnvioYGarantiaTest.test01CreamosInstanciaDeCompraConEnvioYGarantia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <extension name="coverage">
         <pattern>
@@ -142,8 +124,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Compra" />
-      <option name="MAIN_CLASS_NAME" value="Compra.CompraSimpleTest" />
-      <option name="METHOD_NAME" value="test03AgregamosProductosAlaCompraYObtenemosPrecioTotalDeLosProductosEnLaCompra" />
+      <option name="MAIN_CLASS_NAME" value="Compra.CompraConEnvioYGarantiaTest" />
+      <option name="METHOD_NAME" value="test01CreamosInstanciaDeCompraConEnvioYGarantia" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompraSimpleConGarantiaTest.test01CreamosInstanciaDeCompraSimpleConGarantia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP1-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Compra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Compra" />
+      <option name="MAIN_CLASS_NAME" value="Compra.CompraSimpleConGarantiaTest" />
+      <option name="METHOD_NAME" value="test01CreamosInstanciaDeCompraSimpleConGarantia" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,13 +149,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CompraSimpleConGarantiaTest.test01CreamosInstanciaDeCompraSimpleConGarantia" />
+        <item itemvalue="JUnit.CompraConEnvioYGarantiaTest.test01CreamosInstanciaDeCompraConEnvioYGarantia" />
+        <item itemvalue="JUnit.AlgoBayTest.test04EnvioCuesta100" />
         <item itemvalue="JUnit.All in TP1-master" />
         <item itemvalue="JUnit.CompraConEnvioTest.test03CreamosCompraAgregamosCuatroProductosYVerficamosElCostoDeLaCompra" />
-        <item itemvalue="JUnit.CompraConEnvioTest.test02AgregamosCuatroProductosAlaCompraYVerificamosLaCantidadDeProductosAgregados" />
-        <item itemvalue="JUnit.CompraConEnvioTest.test01CremosInstanciaDeCompraConEnvio" />
-        <item itemvalue="JUnit.CompraSimpleTest.test03AgregamosProductosAlaCompraYObtenemosPrecioTotalDeLosProductosEnLaCompra" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -185,12 +195,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se crea prueba de Precio" />
@@ -201,10 +212,11 @@
       <screen x="0" y="23" width="1280" height="735" />
     </state>
     <state x="100" y="123" width="1080" height="533" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.735@0.23.1280.735" timestamp="1594997997022" />
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1595452202651">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="478" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1595461196129">
+      <screen x="0" y="23" width="1280" height="733" />
     </state>
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595452202651" />
+    <state x="478" y="129" key="#com.intellij.ide.util.MemberChooser/0.23.1280.733@0.23.1280.733" timestamp="1595461196129" />
     <state x="489" y="285" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1594777780704">
       <screen x="0" y="23" width="1280" height="735" />
     </state>
@@ -213,32 +225,40 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="287" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594764276172" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1595453039980">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1595461292298">
+      <screen x="0" y="23" width="1280" height="733" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595453039980" />
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.733@0.23.1280.733" timestamp="1595461292298" />
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.734@0.23.1280.734" timestamp="1595460686078" />
     <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.735@0.23.1280.735" timestamp="1595016449733" />
     <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.736@0.23.1280.736" timestamp="1594940347691" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1595453039980">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1595461292297">
+      <screen x="0" y="23" width="1280" height="733" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595453039980" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.733@0.23.1280.733" timestamp="1595461292297" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.734@0.23.1280.734" timestamp="1595460686078" />
     <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.735@0.23.1280.735" timestamp="1595016449733" />
     <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.736@0.23.1280.736" timestamp="1594940347690" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1595453039980">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1595461292296">
+      <screen x="0" y="23" width="1280" height="733" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595453039980" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.733@0.23.1280.733" timestamp="1595461292296" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.734@0.23.1280.734" timestamp="1595460686077" />
     <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.735@0.23.1280.735" timestamp="1595016449732" />
     <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.736@0.23.1280.736" timestamp="1594940347689" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1595453039980">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1595461292297">
+      <screen x="0" y="23" width="1280" height="733" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595453039980" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.733@0.23.1280.733" timestamp="1595461292297" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.734@0.23.1280.734" timestamp="1595460686078" />
     <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.735@0.23.1280.735" timestamp="1595016449733" />
     <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.736@0.23.1280.736" timestamp="1594940347690" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1594764298948">
@@ -250,11 +270,12 @@
     </state>
     <state x="387" y="257" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1594763550049" />
     <state x="363" y="282" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1280.735@0.23.1280.735" timestamp="1594837416452" />
-    <state x="510" y="76" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595452897668">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="425" y="91" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595461242246">
+      <screen x="0" y="23" width="1280" height="733" />
     </state>
     <state x="454" y="67" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1594766140344" />
     <state x="510" y="76" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1595452897668" />
+    <state x="425" y="91" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.733@0.23.1280.733" timestamp="1595461242246" />
     <state x="425" y="91" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.735@0.23.1280.735" timestamp="1594837397111" />
   </component>
 </project>

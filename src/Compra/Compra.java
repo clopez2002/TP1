@@ -32,8 +32,15 @@ public class Compra {
     }
 
 
-
 //---------------------------------------------------------
+
+    public int getPrecioTotalDe ()
+    {
+        int total = 0;
+        for (Producto unProducto : compra)
+            total += unProducto.getPrecio();
+        return total;
+    }
 
 //---------------------------------------------------------
 

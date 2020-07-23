@@ -77,4 +77,25 @@ public class AlgoBayTest {
                 DELTA);
     }
 
+    @Test
+    public void test05GarantiaCuesta10Porciento() {
+
+        AlgoBay algoBay = new AlgoBay();
+
+        Producto zapatilla = algoBay.agregarProductoConPrecio("Zapatilla", 2000);
+
+        Compra compraSimpleConGarantia = algoBay.crearNuevaCompraConGarantia();
+        Compra compraConEnvioYGarantia = algoBay.crearNuevaCompraConEnvioYGarantia();
+
+        algoBay.agregarProductoEnCompra(zapatilla, compraSimpleConGarantia);
+        algoBay.agregarProductoEnCompra(zapatilla, compraConEnvioYGarantia);
+
+        Assert.assertEquals(2000*1.1,
+                algoBay.getPrecioTotalDe(compraSimpleConGarantia),
+                DELTA);
+        Assert.assertEquals((2000 * 1.1) + 100,
+                algoBay.getPrecioTotalDe(compraConEnvioYGarantia),
+                DELTA);
+    }
+
 }

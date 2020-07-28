@@ -98,4 +98,22 @@ public class AlgoBayTest {
                 DELTA);
     }
 
+    @Test
+    public void test06EnvioBonificadoComprasMayoresA5000() {
+
+        AlgoBay algoBay = new AlgoBay();
+
+        Producto zapatilla = algoBay.agregarProductoConPrecio("Zapatilla", 2000);
+        Producto celular = algoBay.agregarProductoConPrecio("Moto 5G", 4000);
+
+        Compra compraConEnvioYGarantia = algoBay.crearNuevaCompraConEnvioYGarantia();
+
+        algoBay.agregarProductoEnCompra(zapatilla, compraConEnvioYGarantia);
+        algoBay.agregarProductoEnCompra(celular, compraConEnvioYGarantia);
+
+        Assert.assertEquals((6000 * 1.1) + 0,
+                algoBay.getPrecioTotalDe(compraConEnvioYGarantia),
+                DELTA);
+    }
+
 }

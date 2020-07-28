@@ -9,6 +9,8 @@ public abstract class Compra {
     protected
 
         ArrayList<Producto> compra;
+        CostoDeLaCompra costoDeLaCompra;
+
 
 //---------------------------------------------------------
 
@@ -35,7 +37,7 @@ public abstract class Compra {
 //---------------------------------------------------------
 
     public abstract int getPrecioTotalDe ();
-    /*
+/*
     {
         int total = 0;
         for (Producto unProducto : compra)

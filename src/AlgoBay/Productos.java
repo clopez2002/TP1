@@ -1,23 +1,29 @@
 package AlgoBay;
 
-public class AlgoBay {
+import UnProducto.UnProducto;
+
+import java.util.ArrayList;
+
+public class Productos {
 
     private
 
-        Productos productos;
+        ArrayList<UnProducto> productos;
 
 //-------------------------------------------------------------------
 
-    public AlgoBay ()
+    public Productos ()
     {
-        this.productos = new Productos();
+        this.productos = new ArrayList<UnProducto>();
     }
+
+//-------------------------------------------------------------------
 
 //-------------------------------------------------------------------
 
     public int getCantidadDeProductos ()
     {
-        return this.productos.getCantidadDeProductos ();
+        return this.productos.size();
     }
 
 //-------------------------------------------------------------------
@@ -31,9 +37,4 @@ public class AlgoBay {
 //-------------------------------------------------------------------
 
 //-------------------------------------------------------------------
-
-//-------------------------------------------------------------------
-
-
-
 }

@@ -1,25 +1,23 @@
-package AlgoBay;
+package UnProducto;
 
-public class AlgoBay {
+import org.junit.Assert;
+import org.junit.jupiter.api.Test;
 
-    private
+public class UnProductoTest {
 
-        Productos productos;
+
 
 //-------------------------------------------------------------------
 
-    public AlgoBay ()
-    {
-        this.productos = new Productos();
+    @Test
+    public void test01CreamosInstanciaDeProducto () {
+
+        UnProducto producto = new UnProducto("Ala Matic",165);
+        Assert.assertNotNull (producto);
     }
 
 //-------------------------------------------------------------------
 
-    public int getCantidadDeProductos ()
-    {
-        return this.productos.getCantidadDeProductos ();
-    }
-
 //-------------------------------------------------------------------
 
 //-------------------------------------------------------------------
@@ -34,6 +32,6 @@ public class AlgoBay {
 
 //-------------------------------------------------------------------
 
-
+//-------------------------------------------------------------------
 
 }

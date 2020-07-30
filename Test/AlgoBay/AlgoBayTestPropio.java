@@ -1,25 +1,24 @@
 package AlgoBay;
 
-public class AlgoBay {
+import org.junit.Assert;
+import org.junit.Test;
 
-    private
+import static org.junit.Assert.*;
 
-        Productos productos;
+public class AlgoBayTestPropio {
+
 
 //-------------------------------------------------------------------
 
-    public AlgoBay ()
-    {
-        this.productos = new Productos();
+    @Test
+    public void test01CreamosInstanciaDeAlgoBay () {
+
+        AlgoBay algoBay = new AlgoBay();
+        Assert.assertNotNull(algoBay);
     }
 
 //-------------------------------------------------------------------
 
-    public int getCantidadDeProductos ()
-    {
-        return this.productos.getCantidadDeProductos ();
-    }
-
 //-------------------------------------------------------------------
 
 //-------------------------------------------------------------------
@@ -34,6 +33,8 @@ public class AlgoBay {
 
 //-------------------------------------------------------------------
 
+//-------------------------------------------------------------------
 
+//-------------------------------------------------------------------
 
 }

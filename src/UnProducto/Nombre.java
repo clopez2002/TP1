@@ -1,23 +1,16 @@
-package AlgoBay;
+package UnProducto;
 
-public class AlgoBay {
+public class Nombre {
 
     private
 
-        Productos productos;
+        String nombre;
 
 //-------------------------------------------------------------------
 
-    public AlgoBay ()
+    public Nombre (String nombre)
     {
-        this.productos = new Productos();
-    }
-
-//-------------------------------------------------------------------
-
-    public int getCantidadDeProductos ()
-    {
-        return this.productos.getCantidadDeProductos ();
+        this.nombre = nombre;
     }
 
 //-------------------------------------------------------------------
@@ -34,6 +27,5 @@ public class AlgoBay {
 
 //-------------------------------------------------------------------
 
-
-
+//-------------------------------------------------------------------
 }

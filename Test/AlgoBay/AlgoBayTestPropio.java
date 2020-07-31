@@ -1,5 +1,6 @@
 package AlgoBay;
 
+import UnProducto.Producto;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -18,6 +19,15 @@ public class AlgoBayTestPropio {
     }
 
 //-------------------------------------------------------------------
+
+    @Test
+    public void test02AgregamosDosProductosConPrecio () {
+
+        AlgoBay algoBay = new AlgoBay();
+        Producto producto1 = algoBay.agregarProductoConPrecio("Samsung Galaxy S6",49999);
+        Producto producto2 = algoBay.agregarProductoConPrecio("Samsung Galaxy S7",59999);
+        Assert.assertEquals(2,algoBay.getCantidadDeProductos());
+    }
 
 //-------------------------------------------------------------------
 

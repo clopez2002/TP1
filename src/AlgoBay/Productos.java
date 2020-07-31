@@ -1,6 +1,6 @@
 package AlgoBay;
 
-import UnProducto.UnProducto;
+import UnProducto.Producto;
 
 import java.util.ArrayList;
 
@@ -8,13 +8,13 @@ public class Productos {
 
     private
 
-        ArrayList<UnProducto> productos;
+        ArrayList<Producto> productos;
 
 //-------------------------------------------------------------------
 
     public Productos ()
     {
-        this.productos = new ArrayList<UnProducto>();
+        this.productos = new ArrayList<Producto>();
     }
 
 //-------------------------------------------------------------------
@@ -27,6 +27,11 @@ public class Productos {
     }
 
 //-------------------------------------------------------------------
+
+    public void agregarProductoConPrecio (Producto unProductoAAgregar)
+    {
+        this.productos.add(unProductoAAgregar);
+    }
 
 //-------------------------------------------------------------------
 

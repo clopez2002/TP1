@@ -20,62 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05d0d5af-c405-4a59-bd64-20d40928060f" name="Default Changelist" comment="Se crea prueba de Precio">
-      <change afterPath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTestPropio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/UnProducto/NombreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/UnProducto/UnProductoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AlgoBay/Productos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/AlgoBay/ProductosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_22_2020_4_33_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_22_2020_4_33_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_23_2020_10_25_AM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_23_2020_10_25_AM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TP1-master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/AlgoBayTestPropio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Compra/CompraConEnvioTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Compra/CompraConEnvioYGarantiaTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Compra/CompraSimpleConGarantiaTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Compra/CompraSimpleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Compra/CompraTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Compra/CostoDeLaCompraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/UnProducto/PrecioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Producto/CantidadDeProductosTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Producto/NombreTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Producto/PrecioTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Producto/ProductoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/UnProducto/UnProductoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/UnProducto/ProductoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TP1-master/AlgoBay/AlgoBay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1-master/AlgoBay/AlgoBay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Compra/Compra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Compra/CompraConEnvio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Compra/CompraConEnvioYGarantia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Compra/CompraSimple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Compra/CompraSimpleConGarantia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Compra/CostoDeLaCompra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Envio/iEnviable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Excepciones/ErrorProductoNoEstaAgregado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Producto/CantidadDeProductos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Producto/Nombre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1-master/Producto/Nombre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Producto/Precio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1-master/Producto/Precio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Producto/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1-master/Producto/Producto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/AlgoBay/AlgoBayTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/AlgoBayTestPropio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/Compra/CompraConEnvioTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/Compra/CompraConEnvioYGarantiaTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/Compra/CompraSimpleConGarantiaTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/Compra/CompraSimpleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/Compra/CompraTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/Compra/CostoDeLaCompraTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/Producto/CantidadDeProductosTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/Producto/NombreTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/Producto/PrecioTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/Producto/ProductoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/AlgoBay/Productos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1-master/AlgoBay/Productos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/UnProducto/UnProducto.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Compra/Compra.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Compra/CompraConEnvio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnProducto/UnProducto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Compra/CompraConEnvioYGarantia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Compra/CompraSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnProducto/Nombre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Compra/CompraSimpleConGarantia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Compra/CostoDeLaCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnProducto/Precio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Envio/iEnviable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Excepciones/ErrorProductoNoEstaAgregado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Producto/CantidadDeProductos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Producto/Nombre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Producto/Precio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Producto/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgoBay/Productos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgoBay/Productos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnProducto/UnProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnProducto/Producto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +44,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -114,16 +72,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="Producto" />
       <recent name="AlgoBay" />
+      <recent name="Producto" />
       <recent name="Compra" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UnProductoTest.test01CreamosInstanciaDeProducto">
-    <configuration name="AlgoBayTestPropio.test01CreamosInstanciaDeAlgoBay (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in TP1-master">
+    <configuration name="AlgoBayTestPropio.test02AgregamosDosProductosConPrecio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <extension name="coverage">
         <pattern>
@@ -133,65 +91,63 @@
       </extension>
       <option name="PACKAGE_NAME" value="AlgoBay" />
       <option name="MAIN_CLASS_NAME" value="AlgoBay.AlgoBayTestPropio" />
-      <option name="METHOD_NAME" value="test01CreamosInstanciaDeAlgoBay" />
+      <option name="METHOD_NAME" value="test02AgregamosDosProductosConPrecio" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlgoBayTestPropio.test01CreamosInstanciaDeAlgoBay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlgoBayTest.test01AgregarProductos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP1-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AlgoBay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AlgoBay" />
+      <option name="MAIN_CLASS_NAME" value="AlgoBay.AlgoBayTest" />
+      <option name="METHOD_NAME" value="test01AgregarProductos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in TP1-master" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AlgoBayTestPropio" />
-      <option name="METHOD_NAME" value="test01CreamosInstanciaDeAlgoBay" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductosTest.test01CreamosInstanciadeProductos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP1-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AlgoBay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AlgoBay" />
+      <option name="MAIN_CLASS_NAME" value="AlgoBay.ProductosTest" />
+      <option name="METHOD_NAME" value="test01CreamosInstanciadeProductos" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrecioTest.test01CreamosInstanciaDePrecio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductosTest.test02AgregamosUnProductoCualquiera" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnProducto.*" />
+          <option name="PATTERN" value="AlgoBay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnProducto" />
-      <option name="MAIN_CLASS_NAME" value="UnProducto.PrecioTest" />
-      <option name="METHOD_NAME" value="test01CreamosInstanciaDePrecio" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnProductoTest.test01CreamosInstanciaDeProducto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP1-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UnProducto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UnProducto" />
-      <option name="MAIN_CLASS_NAME" value="UnProducto.UnProductoTest" />
-      <option name="METHOD_NAME" value="test01CreamosInstanciaDeProducto" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnProducto.test01CreamosInstanciaDeProducto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP1-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UnProducto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UnProducto" />
-      <option name="MAIN_CLASS_NAME" value="UnProducto.UnProducto" />
-      <option name="METHOD_NAME" value="test01CreamosInstanciaDeProducto" />
+      <option name="PACKAGE_NAME" value="AlgoBay" />
+      <option name="MAIN_CLASS_NAME" value="AlgoBay.ProductosTest" />
+      <option name="METHOD_NAME" value="test02AgregamosUnProductoCualquiera" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UnProductoTest.test01CreamosInstanciaDeProducto" />
-        <item itemvalue="JUnit.PrecioTest.test01CreamosInstanciaDePrecio" />
-        <item itemvalue="JUnit.UnProducto.test01CreamosInstanciaDeProducto" />
-        <item itemvalue="JUnit.AlgoBayTestPropio.test01CreamosInstanciaDeAlgoBay (1)" />
-        <item itemvalue="JUnit.AlgoBayTestPropio.test01CreamosInstanciaDeAlgoBay" />
+        <item itemvalue="JUnit.All in TP1-master" />
+        <item itemvalue="JUnit.AlgoBayTestPropio.test02AgregamosDosProductosConPrecio" />
+        <item itemvalue="JUnit.AlgoBayTest.test01AgregarProductos" />
+        <item itemvalue="JUnit.ProductosTest.test02AgregamosUnProductoCualquiera" />
+        <item itemvalue="JUnit.ProductosTest.test01CreamosInstanciadeProductos" />
       </list>
     </recent_temporary>
   </component>
@@ -257,10 +213,10 @@
       <screen x="0" y="23" width="1280" height="735" />
     </state>
     <state x="489" y="285" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.735@0.23.1280.735" timestamp="1594777780704" />
-    <state x="454" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596053177093">
+    <state x="454" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596203275516">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="454" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1596053177093" />
+    <state x="454" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1596203275516" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596052035993">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -273,32 +229,32 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595958035382" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1596052254950">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1596203602889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596052254950" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596203602889" />
     <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.735@0.23.1280.735" timestamp="1595016449733" />
     <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.736@0.23.1280.736" timestamp="1594940347691" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1596052254950">
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1596203602889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596052254950" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596203602889" />
     <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.735@0.23.1280.735" timestamp="1595016449733" />
     <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.736@0.23.1280.736" timestamp="1594940347690" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1596052254950">
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1596203602889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596052254950" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596203602889" />
     <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.735@0.23.1280.735" timestamp="1595016449732" />
     <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.736@0.23.1280.736" timestamp="1594940347689" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1596052254950">
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1596203602889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596052254950" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596203602889" />
     <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.735@0.23.1280.735" timestamp="1595016449733" />
     <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.736@0.23.1280.736" timestamp="1594940347690" />
     <state x="147" y="65" key="MergeDialog" timestamp="1595510746991">
@@ -323,11 +279,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1595510715378" />
-    <state x="510" y="76" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596052859976">
+    <state x="510" y="76" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596203534071">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="454" y="67" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1594766140344" />
-    <state x="510" y="76" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1596052859976" />
+    <state x="510" y="76" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1596203534071" />
     <state x="425" y="91" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.735@0.23.1280.735" timestamp="1594837397111" />
     <state x="514" y="201" key="git4idea.merge.GitPullDialog" timestamp="1595510795930">
       <screen x="0" y="0" width="1536" height="824" />

@@ -1,31 +1,23 @@
-package AlgoBay;
+package UnProducto;
 
-import UnProducto.Producto;
-import org.junit.Assert;
-import org.junit.Test;
+public class Producto {
 
-import static org.junit.Assert.*;
+    private
 
-public class AlgoBayTest {
+        Nombre nombreDelProducto;
+        Precio precioDelProducto;
+
 
 
 //-------------------------------------------------------------------
 
-    @Test
-    public void test01AgregarProductos() {
-
-        AlgoBay algoBay = new AlgoBay();
-
-        Assert.assertEquals(0, algoBay.getCantidadDeProductos());
-
-        Producto spinner = algoBay.agregarProductoConPrecio("Spinner", 83);
-
-        Assert.assertEquals(1, algoBay.getCantidadDeProductos());
-
-        Assert.assertNotNull(spinner);
+    public Producto(String nombre, int precio)
+    {
+        this.nombreDelProducto = new Nombre (nombre);
+        this.precioDelProducto = new Precio (precio);
     }
 
-//-------------------------------------------------------------------
+
 
 //-------------------------------------------------------------------
 

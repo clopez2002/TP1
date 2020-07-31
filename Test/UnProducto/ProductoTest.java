@@ -1,23 +1,20 @@
 package UnProducto;
 
-public class UnProducto {
+import org.junit.Assert;
+import org.junit.jupiter.api.Test;
 
-    private
-
-        Nombre nombreDelProducto;
-        Precio precioDelProducto;
+public class ProductoTest {
 
 
 
 //-------------------------------------------------------------------
 
-    public UnProducto(String nombre, int precio)
-    {
-        this.nombreDelProducto = new Nombre (nombre);
-        this.precioDelProducto = new Precio (precio);
+    @Test
+    public void test01CreamosInstanciaDeProducto () {
+
+        Producto producto = new Producto("Ala Matic",165);
+        Assert.assertNotNull (producto);
     }
-
-
 
 //-------------------------------------------------------------------
 

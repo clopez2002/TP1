@@ -1,5 +1,7 @@
 package AlgoBay;
 
+import UnProducto.Producto;
+
 public class AlgoBay {
 
     private
@@ -21,6 +23,14 @@ public class AlgoBay {
     }
 
 //-------------------------------------------------------------------
+
+    public Producto agregarProductoConPrecio (String nombre, int precio)
+    {
+        Producto unProducto = new Producto(nombre,precio);
+        this.productos.agregarProductoConPrecio(unProducto);
+        return unProducto;
+
+    }
 
 //-------------------------------------------------------------------
 

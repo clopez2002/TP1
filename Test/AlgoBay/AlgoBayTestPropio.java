@@ -31,6 +31,17 @@ public class AlgoBayTestPropio {
 
 //-------------------------------------------------------------------
 
+    @Test
+    public void test03AgregamosVariosProductosYBuscamosUnoEnParticular () {
+
+        AlgoBay algoBay = new AlgoBay();
+        algoBay.agregarProductoConPrecio("S6",39999);
+        algoBay.agregarProductoConPrecio("S7",49999);
+        algoBay.agregarProductoConPrecio("S8",59999);
+        Producto unProducto = algoBay.getProducto("S8");
+        Assert.assertNotNull(unProducto);
+    }
+
 //-------------------------------------------------------------------
 
 //-------------------------------------------------------------------

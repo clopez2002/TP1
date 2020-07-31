@@ -34,6 +34,10 @@ public class AlgoBay {
 
 //-------------------------------------------------------------------
 
+    public Producto getProducto (String descripcionDelProductoBuscado)
+    {
+        return productos.getProducto (descripcionDelProductoBuscado);
+    }
 //-------------------------------------------------------------------
 
 //-------------------------------------------------------------------

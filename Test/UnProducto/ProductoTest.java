@@ -18,6 +18,13 @@ public class ProductoTest {
 
 //-------------------------------------------------------------------
 
+    @Test
+    public void test02ObtenemosNombreDelProducto () {
+
+        Producto unProducto = new Producto("Galaxy Tab",39999);
+        Assert.assertEquals("Galaxy Tab",unProducto.getProductoName());
+    }
+
 //-------------------------------------------------------------------
 
 //-------------------------------------------------------------------

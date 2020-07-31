@@ -35,6 +35,20 @@ public class Productos {
 
 //-------------------------------------------------------------------
 
+    public Producto getProducto (String descripcionDelProductoBuscado)
+    {
+        int i=0;
+        Producto elProductoBuscado = null;
+        for (Producto unProducto: productos)
+            {
+
+                if (unProducto.getProductoName() == descripcionDelProductoBuscado)
+                    elProductoBuscado = this.productos.get(i);
+                i+=1;
+            }
+        return elProductoBuscado;
+    }
+
 //-------------------------------------------------------------------
 
 //-------------------------------------------------------------------

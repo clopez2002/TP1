@@ -16,6 +16,13 @@ public class NombreTest {
 
 //-------------------------------------------------------------------
 
+    @Test
+    public void test02ObtenemosNombreDelProducto () {
+
+        Nombre unNombre = new Nombre("Samsung Galaxy S6");
+        Assert.assertEquals("Samsung Galaxy S6",unNombre.getName());
+    }
+
 //-------------------------------------------------------------------
 
 //-------------------------------------------------------------------

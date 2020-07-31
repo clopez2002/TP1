@@ -32,24 +32,31 @@ public class AlgoBayTestPropio {
 
 //-------------------------------------------------------------------
 
-    @Test
-    public void test03AgregamosVariosProductosYBuscamosUnoEnParticular () throws ErrorProductoNoEstaEnProductos {
+    @Test (expected = ErrorProductoNoEstaEnProductos.class)
+    public void test03AgregamosVariosProductosYBuscamosUnoEnParticularQueEsta () throws ErrorProductoNoEstaEnProductos {
 
         AlgoBay algoBay = new AlgoBay();
         algoBay.agregarProductoConPrecio("S6",39999);
         algoBay.agregarProductoConPrecio("S7",49999);
         algoBay.agregarProductoConPrecio("S8",59999);
-        try {
-            Producto unProducto = algoBay.getProducto("S8");
-            Assert.assertNotNull(unProducto);
-        }
-        catch (ErrorProductoNoEstaEnProductos p)
-        {
+        Producto unProducto = algoBay.getProducto("S8");
+        Assert.assertNotNull(unProducto);
 
-        }
     }
 
 //-------------------------------------------------------------------
+
+    @Test (expected = ErrorProductoNoEstaEnProductos.class)
+    public void test04AgregamosVariosProductosBuscamosUnoQueNoEstaYLanzaExcepcion () throws ErrorProductoNoEstaEnProductos {
+
+        AlgoBay algoBay = new AlgoBay();
+        algoBay.agregarProductoConPrecio("S6",39999);
+        algoBay.agregarProductoConPrecio("S7",49999);
+        algoBay.agregarProductoConPrecio("S8",59999);
+        Producto unProducto = algoBay.getProducto("Galaxy Tab");
+
+
+    }
 
 //-------------------------------------------------------------------
 

@@ -31,7 +31,7 @@ public class ProductosTest {
 
 //-------------------------------------------------------------------
 
-    @Test
+    @Test (expected = ErrorProductoNoEstaEnProductos.class)
     public void test03AgregamosTresProductosYDevolvemosUnProductoQueSiEsta () throws ErrorProductoNoEstaEnProductos {
 
         Productos productos = new Productos();
@@ -41,18 +41,12 @@ public class ProductosTest {
         productos.agregarProductoConPrecio(p1);
         productos.agregarProductoConPrecio(p2);
         productos.agregarProductoConPrecio(p3);
-        try {
-            Assert.assertNotNull(productos.getProducto("S8"));
-        }
-        catch (ErrorProductoNoEstaEnProductos p)
-        {
-
-        }
+        Assert.assertNotNull(productos.getProducto("S8"));
     }
 
 //-------------------------------------------------------------------
 
-    @Test
+    @Test (expected = ErrorProductoNoEstaEnProductos.class)
     public void test04AgregamosProductosPeroPedimosUnoQueNoEstaEntoncesLanzaExcepcion () throws ErrorProductoNoEstaEnProductos {
 
         Productos productos = new Productos();
@@ -62,12 +56,8 @@ public class ProductosTest {
         productos.agregarProductoConPrecio(p1);
         productos.agregarProductoConPrecio(p2);
         productos.agregarProductoConPrecio(p3);
-        try {
-            productos.getProducto("Galaxy Tab");
-        }
-        catch (ErrorProductoNoEstaEnProductos p){
+        productos.getProducto("Galaxy Tab");
 
-        }
 
     }
 

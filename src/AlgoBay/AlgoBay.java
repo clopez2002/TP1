@@ -1,5 +1,6 @@
 package AlgoBay;
 
+import Compra.Compra;
 import Excepciones.ErrorProductoNoEstaEnProductos;
 import UnProducto.Producto;
 
@@ -41,9 +42,24 @@ public class AlgoBay {
     }
 //-------------------------------------------------------------------
 
-//-------------------------------------------------------------------
+    public Compra crearNuevaCompra ()
+    {
+        return new Compra();
+    }
 
 //-------------------------------------------------------------------
+
+    public void agregarProductoEnCompra (Producto unProductoParaAgregar, Compra compraDondeAgregamosProducto)
+    {
+        compraDondeAgregamosProducto.agregarProductoEnCompra(unProductoParaAgregar);
+    }
+
+//-------------------------------------------------------------------
+
+    public int getPrecioTotalDe (Compra unaCompra)
+    {
+        return 1;
+    }
 
 //-------------------------------------------------------------------
 

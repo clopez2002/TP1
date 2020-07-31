@@ -1,8 +1,18 @@
 package Compra;
 
+import UnProducto.Producto;
+
+import java.util.ArrayList;
+
 public abstract class Compras {
 
+    protected
+
+        ArrayList<Producto> productosDeLaCompra;
+
 //-------------------------------------------------------------------
+
+
 
 //-------------------------------------------------------------------
 

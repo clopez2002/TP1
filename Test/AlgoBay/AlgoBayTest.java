@@ -1,5 +1,6 @@
 package AlgoBay;
 
+import Compra.Compra;
 import Excepciones.ErrorProductoNoEstaEnProductos;
 import UnProducto.Producto;
 import org.junit.Assert;
@@ -8,6 +9,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class AlgoBayTest {
+
+    private static final double DELTA = 1e-15;
 
 
 //-------------------------------------------------------------------
@@ -28,27 +31,22 @@ public class AlgoBayTest {
 
 //-------------------------------------------------------------------
 
-    @Test
+    @Test (expected = ErrorProductoNoEstaEnProductos.class)
     public void test02ObtenerProducto() throws ErrorProductoNoEstaEnProductos {
 
         AlgoBay algoBay = new AlgoBay();
 
         algoBay.agregarProductoConPrecio("Moto 5G", 4399);
 
-        try {
-            Producto celular = algoBay.getProducto("Moto 5G");
-            Assert.assertNotNull(celular);
+        Producto celular = algoBay.getProducto("Moto 5G");
+        Assert.assertNotNull(celular);
 
-        }
-        catch (ErrorProductoNoEstaEnProductos p){
-
-        }
     }
 
 //-------------------------------------------------------------------
-/*
-    @Test
-    public void test03CompraSimple() {
+
+    @Test (expected = ErrorProductoNoEstaEnProductos.class)
+    public void test03CompraSimple() throws ErrorProductoNoEstaEnProductos {
 
         AlgoBay algoBay = new AlgoBay();
 
@@ -67,7 +65,7 @@ public class AlgoBayTest {
                 algoBay.getPrecioTotalDe(compra),
                 DELTA);
     }
-*/
+
 //-------------------------------------------------------------------
 
 //-------------------------------------------------------------------

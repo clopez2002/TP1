@@ -1,5 +1,6 @@
 package AlgoBay;
 
+import Excepciones.ErrorProductoNoEstaEnProductos;
 import UnProducto.Producto;
 import org.junit.Assert;
 import org.junit.Test;
@@ -28,15 +29,20 @@ public class AlgoBayTest {
 //-------------------------------------------------------------------
 
     @Test
-    public void test02ObtenerProducto() {
+    public void test02ObtenerProducto() throws ErrorProductoNoEstaEnProductos {
 
         AlgoBay algoBay = new AlgoBay();
 
         algoBay.agregarProductoConPrecio("Moto 5G", 4399);
 
-        Producto celular = algoBay.getProducto("Moto 5G");
+        try {
+            Producto celular = algoBay.getProducto("Moto 5G");
+            Assert.assertNotNull(celular);
 
-        Assert.assertNotNull(celular);
+        }
+        catch (ErrorProductoNoEstaEnProductos p){
+
+        }
     }
 
 //-------------------------------------------------------------------

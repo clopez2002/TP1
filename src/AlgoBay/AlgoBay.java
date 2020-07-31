@@ -1,5 +1,6 @@
 package AlgoBay;
 
+import Excepciones.ErrorProductoNoEstaEnProductos;
 import UnProducto.Producto;
 
 public class AlgoBay {
@@ -34,7 +35,7 @@ public class AlgoBay {
 
 //-------------------------------------------------------------------
 
-    public Producto getProducto (String descripcionDelProductoBuscado)
+    public Producto getProducto (String descripcionDelProductoBuscado) throws ErrorProductoNoEstaEnProductos
     {
         return productos.getProducto (descripcionDelProductoBuscado);
     }

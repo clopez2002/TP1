@@ -4,7 +4,11 @@ import UnProducto.Producto;
 
 import java.util.ArrayList;
 
-public class Compra extends Compras {
+public abstract class Compra{
+
+    protected
+
+    ArrayList<Producto> productosDeLaCompra;
 
 //-------------------------------------------------------------------
 

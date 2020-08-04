@@ -1,18 +1,26 @@
 package Compra;
 
-import UnProducto.Producto;
+import org.junit.Assert;
+import org.junit.Test;
 
-import java.util.ArrayList;
+import static org.junit.Assert.*;
 
-public abstract class Compras {
-
-    protected
-
-        ArrayList<Producto> productosDeLaCompra;
+public class CompraConEnvioTest {
 
 //-------------------------------------------------------------------
 
+    @Test
+    public void test01CreamosInstanciaDeCompraComEnvio () {
 
+        CompraConEnvio compraConEnvio = new CompraConEnvio();
+        Assert.assertNotNull(compraConEnvio);
+    }
+
+//-------------------------------------------------------------------
+
+//-------------------------------------------------------------------
+
+//-------------------------------------------------------------------
 
 //-------------------------------------------------------------------
 

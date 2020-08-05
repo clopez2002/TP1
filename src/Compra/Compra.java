@@ -4,7 +4,7 @@ import UnProducto.Producto;
 
 import java.util.ArrayList;
 
-public abstract class Compra{
+public class Compra{
 
     protected
 

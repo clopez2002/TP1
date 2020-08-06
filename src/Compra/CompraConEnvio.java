@@ -2,6 +2,8 @@ package Compra;
 
 public class CompraConEnvio extends Compra {
 
+    private static final int COSTODELENVIO = 100;
+
 //-------------------------------------------------------------------
 
     public CompraConEnvio ()
@@ -10,6 +12,9 @@ public class CompraConEnvio extends Compra {
     }
 
 //-------------------------------------------------------------------
+
+
+
 
 //-------------------------------------------------------------------
 

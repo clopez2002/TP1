@@ -4,6 +4,7 @@ import Adicionales.Envio;
 import Adicionales.Garantia;
 import Cobrar.Cobrar;
 import Cobrar.CobrarEnvio;
+import Cobrar.CobrarGarantia;
 import UnProducto.Producto;
 
 import java.util.ArrayList;
@@ -45,6 +46,7 @@ public abstract class Compra implements iCobrable{
 
     public abstract int cobrar (Cobrar algoParaCobrar);
     public abstract int cobrar (CobrarEnvio envioParaCobrar);
+    public abstract int cobrar (CobrarGarantia garantiaParaCobrar);
 
 
 //-------------------------------------------------------------------

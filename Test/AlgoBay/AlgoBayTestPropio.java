@@ -1,5 +1,6 @@
 package AlgoBay;
 
+import Compra.Compra;
 import Excepciones.ErrorProductoNoEstaEnProductos;
 import UnProducto.Producto;
 import org.junit.Assert;
@@ -59,6 +60,17 @@ public class AlgoBayTestPropio {
     }
 
 //-------------------------------------------------------------------
+
+    @Test
+    public void test05AgregamosVariosProductosYVemosElPrecioTotalDeLaCompra () {
+
+        AlgoBay algoBay = new AlgoBay();
+        Producto zapatilla = algoBay.agregarProductoConPrecio("Zapatilla", 2100);
+        Producto celular  = algoBay.agregarProductoConPrecio("S6",39999);
+        Compra compra = new Compra() {
+        }
+
+    }
 
 //-------------------------------------------------------------------
 

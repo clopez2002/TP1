@@ -2,6 +2,7 @@ package Compra;
 
 import Cobrar.Cobrar;
 import Cobrar.CobrarEnvio;
+import Cobrar.CobrarGarantia;
 
 public class CompraConEnvio extends Compra {
 
@@ -27,6 +28,14 @@ public class CompraConEnvio extends Compra {
     @Override
     public int cobrar(CobrarEnvio envioParaCobrar) {
         System.out.println("Cobro CompraConEnvio");
+        return 0;
+    }
+
+//-------------------------------------------------------------------
+
+    @Override
+    public int cobrar(CobrarGarantia garantiaParaCobrar) {
+
         return 0;
     }
 

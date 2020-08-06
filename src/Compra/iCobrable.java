@@ -1,6 +1,9 @@
 package Compra;
 
+import Cobrar.Cobrar;
+
 public interface iCobrable {
 
-    public void cobrarEnvio (Compra unaCompra);
+    public int cobrar (Cobrar algoParaCobrar);
+
 }

@@ -2,11 +2,13 @@ package Compra;
 
 import Adicionales.Envio;
 import Adicionales.Garantia;
+import Cobrar.Cobrar;
+import Cobrar.CobrarEnvio;
 import UnProducto.Producto;
 
 import java.util.ArrayList;
 
-public abstract class Compra{
+public abstract class Compra implements iCobrable{
 
     protected
 
@@ -37,7 +39,13 @@ public abstract class Compra{
         return this.productosDeLaCompra.size();
     }
 
+
+
 //-------------------------------------------------------------------
+
+    public abstract int cobrar (Cobrar algoParaCobrar);
+    public abstract int cobrar (CobrarEnvio envioParaCobrar);
+
 
 //-------------------------------------------------------------------
 

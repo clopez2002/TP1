@@ -67,7 +67,7 @@ public class AlgoBay {
 
     public int getPrecioTotalDe (Compra unaCompra)
     {
-        return 1;
+        return unaCompra.evaluaTuPrecio ();
     }
 
 //-------------------------------------------------------------------

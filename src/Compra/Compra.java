@@ -1,20 +1,26 @@
 package Compra;
 
+import Adicionales.Envio;
+import Adicionales.Garantia;
 import UnProducto.Producto;
 
 import java.util.ArrayList;
 
-public class Compra{
+public abstract class Compra{
 
     protected
 
     ArrayList<Producto> productosDeLaCompra;
+    Envio envio;
+    Garantia garantia;
 
 //-------------------------------------------------------------------
 
     public Compra ()
     {
         this.productosDeLaCompra = new ArrayList<Producto>();
+        this.envio = new Envio();
+        this.garantia = new Garantia();
     }
 
 //-------------------------------------------------------------------

@@ -48,6 +48,16 @@ public class AlgoBayTestPROPIO {
 
 //--------------------------------------------------
 
+    @Test
+    public void test05AgregamosVariosProductosEnAlgoBayYBuscamosUnoQueSiEsta () {
+
+        AlgoBay algoBay = new AlgoBay();
+        Producto p1 = algoBay.agregarProductoConPrecio("S6",39999);
+        Producto p2 = algoBay.agregarProductoConPrecio("S7",49999);
+        Producto p3 = algoBay.agregarProductoConPrecio("S8",59999);
+        Assert.assertEquals(p3,algoBay.getProducto("S8"));
+    }
+
 //--------------------------------------------------
 
 //--------------------------------------------------

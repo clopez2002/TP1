@@ -33,6 +33,15 @@ public class Productos {
 
 //--------------------------------------------------
 
+    public Producto getProducto (String descripcionDelProductoABuscar)
+    {
+        Producto productoParaDevolver = null;
+        for (Producto p: productos)
+            if (descripcionDelProductoABuscar == p.obtenerNombredelProducto())
+                productoParaDevolver = p;
+        return productoParaDevolver;
+    }
+
 //--------------------------------------------------
 
 //--------------------------------------------------

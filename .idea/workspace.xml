@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05d0d5af-c405-4a59-bd64-20d40928060f" name="Default Changelist" comment="se agregan monton d epruebas" />
+    <list default="true" id="05d0d5af-c405-4a59-bd64-20d40928060f" name="Default Changelist" comment="se agregan monton d epruebas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTestPropio.java~origin_master" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgoBay/Productos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgoBay/Productos.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,39 +75,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in TP1-master">
-    <configuration name="AlgoBayTestPROPIO.tes02VerificamosQuealgoBayNoTieneProductosAgregados" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP1-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AlgoBay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AlgoBay" />
-      <option name="MAIN_CLASS_NAME" value="AlgoBay.AlgoBayTestPROPIO" />
-      <option name="METHOD_NAME" value="tes02VerificamosQuealgoBayNoTieneProductosAgregados" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlgoBayTestPROPIO.test03AgregamosUnProductoEnalgoBay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP1-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AlgoBay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AlgoBay" />
-      <option name="MAIN_CLASS_NAME" value="AlgoBay.AlgoBayTestPROPIO" />
-      <option name="METHOD_NAME" value="test03AgregamosUnProductoEnalgoBay" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AlgoBayTestPROPIO.test05AgregamosVariosProductosEnAlgoBayYBuscamosUnoQueSiEsta">
     <configuration name="AlgoBayTestPROPIO.test04VemosQueAlAgregarProductoEnAlgoBayTambienMeLoDevuelve" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <extension name="coverage">
@@ -113,6 +87,38 @@
       <option name="PACKAGE_NAME" value="AlgoBay" />
       <option name="MAIN_CLASS_NAME" value="AlgoBay.AlgoBayTestPROPIO" />
       <option name="METHOD_NAME" value="test04VemosQueAlAgregarProductoEnAlgoBayTambienMeLoDevuelve" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlgoBayTestPROPIO.test05AgregamosVariosProductosEnAlgoBayYBuscamosUnoQueSiEsta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP1-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AlgoBay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AlgoBay" />
+      <option name="MAIN_CLASS_NAME" value="AlgoBay.AlgoBayTestPROPIO" />
+      <option name="METHOD_NAME" value="test05AgregamosVariosProductosEnAlgoBayYBuscamosUnoQueSiEsta" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlgoBayTest.test02ObtenerProducto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP1-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AlgoBay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AlgoBay" />
+      <option name="MAIN_CLASS_NAME" value="AlgoBay.AlgoBayTest" />
+      <option name="METHOD_NAME" value="test02ObtenerProducto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AlgoBayTestPROPIO.test05AgregamosVariosProductosEnAlgoBayYBuscamosUnoQueSiEsta" />
+        <item itemvalue="JUnit.AlgoBayTest.test02ObtenerProducto" />
         <item itemvalue="JUnit.All in TP1-master" />
         <item itemvalue="JUnit.ProductoTest.test02ObtenemosNombreDelProducto" />
         <item itemvalue="JUnit.AlgoBayTestPROPIO.test04VemosQueAlAgregarProductoEnAlgoBayTambienMeLoDevuelve" />
-        <item itemvalue="JUnit.AlgoBayTestPROPIO.test03AgregamosUnProductoEnalgoBay" />
-        <item itemvalue="JUnit.AlgoBayTestPROPIO.tes02VerificamosQuealgoBayNoTieneProductosAgregados" />
       </list>
     </recent_temporary>
   </component>

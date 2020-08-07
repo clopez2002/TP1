@@ -43,7 +43,7 @@ public class Productos {
         for (i=0;i<cantidad;i++)
             if (descripcionDelProductoABuscar == this.productos.get(i).obtenerNombredelProducto())
                 productoParaDevolver = productos.get(i);
-        if (i>cantidad)
+        if (productoParaDevolver == null)
             throw new ErrorProductoNoEstaEnProductos();
 
         return productoParaDevolver;

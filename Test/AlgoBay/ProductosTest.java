@@ -62,6 +62,19 @@ public class ProductosTest {
 
 //--------------------------------------------------
 
+    @Test (expected = ErrorProductoNoEstaEnProductos.class)
+    public void test05AgregamosVariosProductosYBuscamosUnoQueNoEstaEntoncesLanzaExcepcion () throws ErrorProductoNoEstaEnProductos {
+
+        Productos productos = new Productos();
+        Producto p1 = new Producto("S6",39999);
+        Producto p2 = new Producto("S7",49999);
+        Producto p3 = new Producto("S8",59999);
+        productos.agregarProductoConPrecio(p1);
+        productos.agregarProductoConPrecio(p2);
+        productos.agregarProductoConPrecio(p3);
+        productos.getProducto("Galaxy Tab");
+    }
+
 //--------------------------------------------------
 
 

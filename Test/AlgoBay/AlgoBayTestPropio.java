@@ -1,5 +1,6 @@
 package AlgoBay;
 
+import Excepciones.ErrorProductoNoEstaEnProductos;
 import Producto.Producto;
 import org.junit.Assert;
 import org.junit.Test;
@@ -49,7 +50,7 @@ public class AlgoBayTestPROPIO {
 //--------------------------------------------------
 
     @Test
-    public void test05AgregamosVariosProductosYAlBuscarUnoQueEstaMeLoDevuelve () {
+    public void test05AgregamosVariosProductosYAlBuscarUnoQueEstaMeLoDevuelve () throws ErrorProductoNoEstaEnProductos {
 
      AlgoBay algoBay = new AlgoBay();
      Producto p1 = algoBay.agregarProductoConPrecio("S6",39999);

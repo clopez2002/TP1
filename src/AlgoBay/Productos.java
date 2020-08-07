@@ -1,6 +1,8 @@
 package AlgoBay;
 
+import Excepciones.ErrorProductoNoEstaEnProductos;
 import Producto.Producto;
+import com.sun.javaws.exceptions.ErrorCodeResponseException;
 
 import java.util.ArrayList;
 
@@ -33,12 +35,17 @@ public class Productos {
 
 //--------------------------------------------------
 
-    public Producto getProducto (String descripcionDelProductoABuscar)
+    public Producto getProducto (String descripcionDelProductoABuscar) throws ErrorProductoNoEstaEnProductos
     {
         Producto productoParaDevolver = null;
-        for (Producto p: productos)
-            if (descripcionDelProductoABuscar == p.obtenerNombredelProducto())
-                productoParaDevolver = p;
+        int i;
+        int cantidad = this.productos.size();
+        for (i=0;i<cantidad;i++)
+            if (descripcionDelProductoABuscar == this.productos.get(i).obtenerNombredelProducto())
+                productoParaDevolver = productos.get(i);
+        if (i>cantidad)
+            throw new ErrorProductoNoEstaEnProductos();
+
         return productoParaDevolver;
     }
 

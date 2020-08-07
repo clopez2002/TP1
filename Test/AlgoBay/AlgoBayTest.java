@@ -1,5 +1,6 @@
 package AlgoBay;
 
+import Excepciones.ErrorProductoNoEstaEnProductos;
 import Producto.Producto;
 import org.junit.Assert;
 import org.junit.Test;
@@ -29,7 +30,7 @@ public class AlgoBayTest {
 //--------------------------------------------------
 
     @Test
-    public void test02ObtenerProducto() {
+    public void test02ObtenerProducto() throws ErrorProductoNoEstaEnProductos {
 
         AlgoBay algoBay = new AlgoBay();
 

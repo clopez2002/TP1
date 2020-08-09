@@ -43,6 +43,27 @@ public class AlgoBayTest {
 
 //--------------------------------------------------
 
+    @Test
+    public void test03CompraSimple() {
+
+        AlgoBay algoBay = new AlgoBay();
+
+        Producto zapatilla = algoBay.agregarProductoConPrecio("Zapatilla", 2100);
+        algoBay.agregarProductoConPrecio("Moto 5G", 4300);
+        algoBay.agregarProductoConPrecio("Cable usb", 200);
+
+        Producto celular = algoBay.getProducto("Moto 5G");
+
+        Compra compra = algoBay.crearNuevaCompra();
+
+        algoBay.agregarProductoEnCompra(zapatilla, compra);
+        algoBay.agregarProductoEnCompra(celular, compra);
+
+        Assert.assertEquals(6400,
+                algoBay.getPrecioTotalDe(compra),
+                DELTA);
+    }
+
 //--------------------------------------------------
 
 //--------------------------------------------------

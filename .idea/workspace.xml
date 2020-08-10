@@ -21,7 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="05d0d5af-c405-4a59-bd64-20d40928060f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTestPROPIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTestPROPIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Compra/CompraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Compra/CompraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/AlgoBay/AlgoBay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1-master/AlgoBay/AlgoBay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/AlgoBay/AlgoBayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TP1-master/AlgoBay/AlgoBayTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Compra/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Compra/Compra.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,52 +69,52 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Compra" />
       <recent name="Producto" />
       <recent name="AlgoBay" />
       <recent name="Adicionales" />
-      <recent name="Compra" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductosTest.test05AgregamosVariosProductosYBuscamosUnoQueNoEstaEntoncesLanzaExcepcion">
-    <configuration name="AlgoBayTestPropio.test05AgregamosVariosProductosEnAlgoBayYBuscamosUnoQueSiEsta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP1-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AlgoBay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AlgoBay" />
-      <option name="MAIN_CLASS_NAME" value="AlgoBay.AlgoBayTestPropio" />
-      <option name="METHOD_NAME" value="test05AgregamosVariosProductosEnAlgoBayYBuscamosUnoQueSiEsta" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlgoBayTestPropio.test05AgregamosVariosProductosYAlBuscarUnoQueEstaMeLoDevuelve" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP1-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AlgoBay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AlgoBay" />
-      <option name="MAIN_CLASS_NAME" value="AlgoBay.AlgoBayTestPropio" />
-      <option name="METHOD_NAME" value="test05AgregamosVariosProductosYAlBuscarUnoQueEstaMeLoDevuelve" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CompraTest.test02AgregamosUnProductoCualquieraEnLaCompra">
     <configuration name="All in TP1-master" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompraTest.test01CreamosInstanciaDeCompra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP1-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Compra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Compra" />
+      <option name="MAIN_CLASS_NAME" value="Compra.CompraTest" />
+      <option name="METHOD_NAME" value="test01CreamosInstanciaDeCompra" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompraTest.test02AgregamosUnProductoCualquieraEnLaCompra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP1-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Compra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Compra" />
+      <option name="MAIN_CLASS_NAME" value="Compra.CompraTest" />
+      <option name="METHOD_NAME" value="test02AgregamosUnProductoCualquieraEnLaCompra" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,15 +153,27 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CompraTest.test02AgregamosUnProductoCualquieraEnLaCompra" />
+        <item itemvalue="JUnit.CompraTest.test01CreamosInstanciaDeCompra" />
         <item itemvalue="JUnit.ProductosTest.test05AgregamosVariosProductosYBuscamosUnoQueNoEstaEntoncesLanzaExcepcion" />
         <item itemvalue="JUnit.All in TP1-master" />
         <item itemvalue="JUnit.ProductosTest.test04AgregamosVAriosProductosYBuscamosUnoQueSiEsta" />
-        <item itemvalue="JUnit.AlgoBayTestPropio.test05AgregamosVariosProductosYAlBuscarUnoQueEstaMeLoDevuelve" />
-        <item itemvalue="JUnit.AlgoBayTestPropio.test05AgregamosVariosProductosEnAlgoBayYBuscamosUnoQueSiEsta" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -203,12 +221,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -254,35 +273,39 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596655168295" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1596831575022">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1597100248156">
+      <screen x="0" y="23" width="1280" height="733" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596831575022" />
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.733@0.23.1280.733" timestamp="1597100248156" />
     <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.734@0.23.1280.734" timestamp="1596825356152" />
     <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.735@0.23.1280.735" timestamp="1595016449733" />
     <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.736@0.23.1280.736" timestamp="1594940347691" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1596831575022">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1597100248153">
+      <screen x="0" y="23" width="1280" height="733" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596831575022" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.733@0.23.1280.733" timestamp="1597100248153" />
     <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.734@0.23.1280.734" timestamp="1596825356151" />
     <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.735@0.23.1280.735" timestamp="1595016449733" />
     <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.736@0.23.1280.736" timestamp="1594940347690" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1596831575022">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1597100248149">
+      <screen x="0" y="23" width="1280" height="733" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596831575022" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.733@0.23.1280.733" timestamp="1597100248149" />
     <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.734@0.23.1280.734" timestamp="1596825356150" />
     <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.735@0.23.1280.735" timestamp="1595016449732" />
     <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.736@0.23.1280.736" timestamp="1594940347689" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1596831575022">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1597100248154">
+      <screen x="0" y="23" width="1280" height="733" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596831575022" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.733@0.23.1280.733" timestamp="1597100248154" />
     <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.734@0.23.1280.734" timestamp="1596825356152" />
     <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.735@0.23.1280.735" timestamp="1595016449733" />
     <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.736@0.23.1280.736" timestamp="1594940347690" />
@@ -329,11 +352,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1596743316615" />
-    <state x="510" y="76" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596750038716">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="425" y="91" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1597100069074">
+      <screen x="0" y="23" width="1280" height="733" />
     </state>
     <state x="454" y="67" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1594766140344" />
     <state x="510" y="76" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1596750038716" />
+    <state x="425" y="91" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.733@0.23.1280.733" timestamp="1597100069074" />
     <state x="425" y="91" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.735@0.23.1280.735" timestamp="1594837397111" />
     <state x="335" y="141" width="865" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1596565618282">
       <screen x="0" y="0" width="1536" height="824" />

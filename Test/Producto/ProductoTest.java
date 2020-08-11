@@ -27,6 +27,13 @@ public class ProductoTest {
 
 //--------------------------------------------------
 
+    @Test
+    public void test03ObtenemosPrecioDelProducto () {
+
+        Producto unProducto  = new Producto("S6",39999);
+        Assert.assertEquals(39999,unProducto.obtenerPrecioDelProducto());
+    }
+
 //--------------------------------------------------
 
 //--------------------------------------------------

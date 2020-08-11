@@ -77,5 +77,28 @@ public class ProductosTest {
 
 //--------------------------------------------------
 
+    @Test
+    public void test05AgregamosVariosProductosYPedimosElPrecioTotalDeLosProductosAgregados () {
+
+        Productos productos = new Productos();
+        Producto p1 = new Producto("S6",5000);
+        Producto p2 = new Producto("S7",6000);
+        Producto p3 = new Producto("S8",7000);
+        productos.agregarProductoConPrecio(p1);
+        productos.agregarProductoConPrecio(p2);
+        productos.agregarProductoConPrecio(p3);
+        Assert.assertEquals(18000,productos.getPrecioTotalDe());
+    }
+
+//--------------------------------------------------
+
+//--------------------------------------------------
+
+//--------------------------------------------------
+
+//--------------------------------------------------
+
+
+
 
 }

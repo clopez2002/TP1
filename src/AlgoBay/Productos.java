@@ -51,5 +51,13 @@ public class Productos {
 
 //--------------------------------------------------
 
+    public int getPrecioTotalDe ()
+    {
+        int total = 0;
+        for (Producto unProducto : productos)
+            total += unProducto.obtenerPrecioDelProducto();
+        return total;
+    }
+
 //--------------------------------------------------
 }

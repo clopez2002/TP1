@@ -1,13 +1,13 @@
 package AlgoBay;
 
-import Excepciones.ErrorProductoNoEstaEnProductos;
+import Compra.Compra;
 import Producto.Producto;
 import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class AlgoBayTestPropio {
+public class AlgoBayTestPROPIO {
 
 //--------------------------------------------------
 
@@ -50,13 +50,17 @@ public class AlgoBayTestPropio {
 //--------------------------------------------------
 
     @Test
-    public void test05AgregamosVariosProductosYAlBuscarUnoQueEstaMeLoDevuelve () throws ErrorProductoNoEstaEnProductos {
+    public void test05AgregamosVariosProductosAlaCompraLuegoPedimosElPrecioDeLosProductosAgregadosAlaCompra () {
 
-     AlgoBay algoBay = new AlgoBay();
-     Producto p1 = algoBay.agregarProductoConPrecio("S6",39999);
-     Producto p2 = algoBay.agregarProductoConPrecio("S7",49999);
-     Producto p3 = algoBay.agregarProductoConPrecio("S8",59999);
-     Assert.assertEquals(p3,algoBay.getProducto("S8"));
+        AlgoBay algoBay = new AlgoBay();
+        Compra unaCompra = new Compra();
+        Producto p1 = new Producto("S6",5000);
+        Producto p2 = new Producto("S7",6000);
+        Producto p3 = new Producto("S8",7000);
+        algoBay.agregarProductoEnCompra(p1,unaCompra);
+        algoBay.agregarProductoEnCompra(p2,unaCompra);
+        algoBay.agregarProductoEnCompra(p3,unaCompra);
+        Assert.assertEquals(18000,algoBay.getPrecioTotalDe(unaCompra));
     }
 
 //--------------------------------------------------

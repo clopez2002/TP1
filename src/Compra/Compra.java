@@ -5,7 +5,10 @@ import Producto.Producto;
 
 public class Compra {
 
-    Productos productosDeLaCompra;
+
+    private
+
+        Productos productosDeLaCompra;
 
 //--------------------------------------------------
 
@@ -27,6 +30,19 @@ public class Compra {
     {
         return productosDeLaCompra.getCantidadDeProductos();
     }
+
+//--------------------------------------------------
+
+    public int getPrecioTotalDe ()
+    {
+        return productosDeLaCompra.getPrecioTotalDe();
+    }
+
+//--------------------------------------------------
+
+//--------------------------------------------------
+
+//--------------------------------------------------
 
 //--------------------------------------------------
 }

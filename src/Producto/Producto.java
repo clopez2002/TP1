@@ -24,6 +24,11 @@ public class Producto {
 
 //--------------------------------------------------
 
+    public int obtenerPrecioDelProducto ()
+    {
+        return this.precio.obtenerPrecio();
+    }
+
 //--------------------------------------------------
 
 //--------------------------------------------------

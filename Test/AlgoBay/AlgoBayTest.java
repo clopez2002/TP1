@@ -67,6 +67,24 @@ public class AlgoBayTest {
 
 //--------------------------------------------------
 
+    @Test
+    public void test04EnvioCuesta100() {
+
+        AlgoBay algoBay = new AlgoBay();
+
+        Producto zapatilla = algoBay.agregarProductoConPrecio("Zapatilla", 2100);
+
+        Compra compraSimple = algoBay.crearNuevaCompra();
+        Compra compraConEnvio = algoBay.crearNuevaCompraConEnvio();
+
+        algoBay.agregarProductoEnCompra(zapatilla, compraSimple);
+        algoBay.agregarProductoEnCompra(zapatilla, compraConEnvio);
+
+        Assert.assertEquals(algoBay.getPrecioTotalDe(compraSimple) + 100,
+                algoBay.getPrecioTotalDe(compraConEnvio),
+                DELTA);
+    }
+
 //--------------------------------------------------
 
 //--------------------------------------------------

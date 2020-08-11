@@ -63,6 +63,12 @@ public class AlgoBay {
 
 //--------------------------------------------------
 
+    public Compra crearNuevaCompraConEnvio ()
+    {
+        Compra compra = null;
+        return compra;
+    }
+
 //--------------------------------------------------
 
 //--------------------------------------------------

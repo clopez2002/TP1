@@ -1,16 +1,19 @@
 package Adicionales;
 
-public class Envio {
+import org.junit.Assert;
+import org.junit.Test;
 
-    private
+import static org.junit.Assert.*;
 
-        boolean envio;
+public class EnvioTest {
 
 //-------------------------------------------------------------------
 
-    public Envio ()
-    {
-        this.envio = false;
+    @Test
+    public void test01CreamosInstanciaDeEnvio () {
+
+        Envio envio = new Envio();
+        Assert.assertNotNull(envio);
     }
 
 //-------------------------------------------------------------------

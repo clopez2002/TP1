@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="05d0d5af-c405-4a59-bd64-20d40928060f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,7 +71,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in TP1-master">
+  <component name="RunManager" selected="JUnit.EnvioTest.test01CreamosInstanciaDeEnvio">
     <configuration name="AlgoBayTestPROPIO.test05AgregamosVariosProductosAlaCompraLuegoPedimosElPrecioDeLosProductosAgregadosAlaCompra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <extension name="coverage">
@@ -113,17 +112,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompraTest.test02AgregamosUnProductoCualquieraEnLaCompra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnvioTest.test01CreamosInstanciaDeEnvio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Compra.*" />
+          <option name="PATTERN" value="Adicionales.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Compra" />
-      <option name="MAIN_CLASS_NAME" value="Compra.CompraTest" />
-      <option name="METHOD_NAME" value="test02AgregamosUnProductoCualquieraEnLaCompra" />
+      <option name="PACKAGE_NAME" value="Adicionales" />
+      <option name="MAIN_CLASS_NAME" value="Adicionales.EnvioTest" />
+      <option name="METHOD_NAME" value="test01CreamosInstanciaDeEnvio" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EnvioTest.test01CreamosInstanciaDeEnvio" />
         <item itemvalue="JUnit.All in TP1-master" />
         <item itemvalue="JUnit.AlgoBayTestPROPIO.test05AgregamosVariosProductosAlaCompraLuegoPedimosElPrecioDeLosProductosAgregadosAlaCompra" />
         <item itemvalue="JUnit.ProductosTest.test05AgregamosVariosProductosYPedimosElPrecioTotalDeLosProductosAgregados" />
         <item itemvalue="JUnit.AlgoBayTest.test03CompraSimple" />
-        <item itemvalue="JUnit.CompraTest.test02AgregamosUnProductoCualquieraEnLaCompra" />
       </list>
     </recent_temporary>
   </component>

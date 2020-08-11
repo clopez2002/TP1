@@ -18,7 +18,22 @@ public class EnvioTest {
 
 //-------------------------------------------------------------------
 
+    @Test
+    public void test02VerificamosQuePorDefectoNoHayEnvio () {
+
+        Envio envio = new Envio();
+        Assert.assertFalse(envio.tengoEnvio());
+    }
+
 //-------------------------------------------------------------------
+
+    @Test
+    public void test03EstablecemosEnvio () {
+
+        Envio envio = new Envio();
+        envio.establecerEnvio ();
+        Assert.assertTrue(envio.tengoEnvio());
+    }
 
 //-------------------------------------------------------------------
 

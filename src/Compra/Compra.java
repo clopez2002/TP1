@@ -1,5 +1,6 @@
 package Compra;
 
+import Adicionales.Envio;
 import AlgoBay.Productos;
 import Producto.Producto;
 
@@ -9,6 +10,7 @@ public class Compra {
     private
 
         Productos productosDeLaCompra;
+        Envio envio;
 
 //--------------------------------------------------
 

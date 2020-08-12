@@ -2,6 +2,7 @@
 package AlgoBay;
 
 import Compra.Compra;
+import Compra.CompraSimple;
 import Producto.Producto;
 import org.junit.Assert;
 import org.junit.Test;
@@ -55,7 +56,7 @@ public class AlgoBayTestPropio {
     public void test05AgregamosVariosProductosAlaCompraLuegoPedimosElPrecioDeLosProductosAgregadosAlaCompra () {
 
         AlgoBay algoBay = new AlgoBay();
-        Compra unaCompra = new Compra();
+        Compra unaCompra = new CompraSimple();
         Producto p1 = new Producto("S6",5000);
         Producto p2 = new Producto("S7",6000);
         Producto p3 = new Producto("S8",7000);

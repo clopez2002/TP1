@@ -4,10 +4,10 @@ import Adicionales.Envio;
 import AlgoBay.Productos;
 import Producto.Producto;
 
-public class Compra {
+public abstract class Compra {
 
 
-    private
+    protected
 
         Productos productosDeLaCompra;
         Envio envio;

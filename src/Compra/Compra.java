@@ -17,6 +17,7 @@ public abstract class Compra {
     public Compra ()
     {
         this.productosDeLaCompra = new Productos();
+        this.envio = new Envio();
     }
 
 //--------------------------------------------------
@@ -37,10 +38,17 @@ public abstract class Compra {
 
     public int getPrecioTotalDe ()
     {
-        return productosDeLaCompra.getPrecioTotalDe();
+        int precio = 0;
+        precio = productosDeLaCompra.getPrecioTotalDe();
+        return precio;
     }
 
 //--------------------------------------------------
+
+    public boolean tieneEnvio ()
+    {
+        return this.envio.tengoEnvio();
+    }
 
 //--------------------------------------------------
 

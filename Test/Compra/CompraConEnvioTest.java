@@ -6,41 +6,32 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CompraSimpleTest {
+public class CompraConEnvioTest {
 
 //--------------------------------------------------
 
     @Test
-    public void test01CreamosInstanciaDeCompraSimple () {
+    public void test01CreamosInstanciaDeCompraConEnvio () {
 
-        CompraSimple compraSimple = new CompraSimple();
-        Assert.assertNotNull(compraSimple);
+        CompraConEnvio compra = new CompraConEnvio();
+        Assert.assertNotNull(compra);
     }
 
 //--------------------------------------------------
 
     @Test
-    public void test02VemosQueCompraSimpleNoTieneEnvio () {
+    public void test02CreamosCompraConEnvioYVerficamosQueNoTieneProductos () {
 
-        CompraSimple compraSimple = new CompraSimple();
-        Assert.assertFalse(compraSimple.tieneEnvio());
-    }
-
-//--------------------------------------------------
-
-    @Test
-    public void test03CompraSimpleSeCreaSinProductos () {
-
-        CompraSimple compra = new CompraSimple();
+        CompraConEnvio compra = new CompraConEnvio();
         Assert.assertEquals(0,compra.getCantidadDeProductos());
     }
 
 //--------------------------------------------------
 
     @Test
-    public void test04Agregamos4ProductosAlaCompra () {
+    public void test03CreamosCompraConEnvioAgregamos3Productos () {
 
-        CompraSimple compra = new CompraSimple();
+        CompraConEnvio compra = new CompraConEnvio();
         Producto p1 = new Producto("S6",100);
         Producto p2 = new Producto("S7",200);
         Producto p3 = new Producto("S8",300);
@@ -53,18 +44,20 @@ public class CompraSimpleTest {
 //--------------------------------------------------
 
     @Test
-    public void test05CreamosCompraSimpleAgregamos3ProductosEntoncesElPrecioFinalEs600 () {
+    public void test04CreamosCompraConEnvioAgregamos3ProductosDe100CadaUnoElPrecioFinalEl400 () {
 
-        CompraSimple compra = new CompraSimple();
+        CompraConEnvio compra = new CompraConEnvio();
         Producto p1 = new Producto("S6",100);
-        Producto p2 = new Producto("S7",200);
-        Producto p3 = new Producto("S8",300);
+        Producto p2 = new Producto("S7",100);
+        Producto p3 = new Producto("S8",100);
         compra.agregarProductoEnCompra(p1);
         compra.agregarProductoEnCompra(p2);
         compra.agregarProductoEnCompra(p3);
-        Assert.assertEquals(600,compra.getPrecioTotalDe());
+        Assert.assertEquals(400,compra.getPrecioTotalDe());
 
     }
+
+//--------------------------------------------------
 
 //--------------------------------------------------
 

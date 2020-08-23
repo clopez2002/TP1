@@ -11,6 +11,13 @@ public class CompraSimple extends Compra{
 
 //--------------------------------------------------
 
+    @Override
+    public int cobrarExtras(int precioTotalDeLosProductos) {
+        return precioTotalDeLosProductos;
+    }
+
+//--------------------------------------------------
+
 //--------------------------------------------------
 
 //--------------------------------------------------

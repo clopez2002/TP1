@@ -4,7 +4,7 @@ import Adicionales.Envio;
 import AlgoBay.Productos;
 import Producto.Producto;
 
-public abstract class Compra {
+public abstract class Compra implements iCobrable{
 
 
     protected
@@ -38,9 +38,9 @@ public abstract class Compra {
 
     public int getPrecioTotalDe ()
     {
-        int precio = 0;
-        precio = productosDeLaCompra.getPrecioTotalDe();
-        return precio;
+        int totalDeLosProductos = 0;
+        totalDeLosProductos = productosDeLaCompra.getPrecioTotalDe();
+        return this.cobrarExtras(totalDeLosProductos);
     }
 
 //--------------------------------------------------

@@ -3,6 +3,8 @@ package AlgoBay;
 import Compra.Compra;
 import Compra.CompraSimple;
 import Compra.CompraConEnvio;
+import Compra.CompraConGarantia;
+import Compra.CompraConEnvioYGarantia;
 import Excepciones.ErrorProductoNoEstaEnProductos;
 import Producto.Producto;
 
@@ -51,6 +53,29 @@ public class AlgoBay {
 
 //--------------------------------------------------
 
+    public Compra crearNuevaCompraConEnvio ()
+    {
+        Compra compra = new CompraConEnvio();
+        return compra;
+    }
+
+//--------------------------------------------------
+
+    public Compra crearNuevaCompraConGarantia ()
+    {
+        Compra compra = new CompraConGarantia();
+        return compra;
+    }
+
+//--------------------------------------------------
+
+    public Compra crearNuevaCompraConEnvioYGarantia ()
+    {
+        return new CompraConEnvioYGarantia();
+    }
+
+//--------------------------------------------------
+
     public void agregarProductoEnCompra (Producto unProducto, Compra unaCompra)
     {
         unaCompra.agregarProductoEnCompra(unProducto);
@@ -63,17 +88,7 @@ public class AlgoBay {
         return unaCompra.getPrecioTotalDe();
     }
 
-//--------------------------------------------------
 
-    public Compra crearNuevaCompraConEnvio ()
-    {
-        Compra compra = new CompraConEnvio();
-        return compra;
-    }
-
-//--------------------------------------------------
-
-//--------------------------------------------------
 
 //--------------------------------------------------
 

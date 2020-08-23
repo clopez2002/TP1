@@ -55,6 +55,11 @@ public abstract class Compra implements iCobrable{
 
 //--------------------------------------------------
 
+    public boolean tieneGarantia ()
+    {
+        return this.garantia.tieneGarantia();
+    }
+
 //--------------------------------------------------
 
 //--------------------------------------------------

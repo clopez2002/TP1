@@ -1,6 +1,7 @@
 package Compra;
 
 import Adicionales.Envio;
+import Adicionales.Garantia;
 import AlgoBay.Productos;
 import Producto.Producto;
 
@@ -11,6 +12,7 @@ public abstract class Compra implements iCobrable{
 
         Productos productosDeLaCompra;
         Envio envio;
+        Garantia garantia;
 
 //--------------------------------------------------
 
@@ -18,6 +20,7 @@ public abstract class Compra implements iCobrable{
     {
         this.productosDeLaCompra = new Productos();
         this.envio = new Envio();
+        this.garantia = new Garantia();
     }
 
 //--------------------------------------------------

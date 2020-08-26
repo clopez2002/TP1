@@ -20,15 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05d0d5af-c405-4a59-bd64-20d40928060f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/Adicionales/DescuentoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Cupones/CuponTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adicionales/Descuento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cupones/Cupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Adicionales/CuponesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adicionales/Cupones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/Compra/CompraConEnvioYGarantia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1-master/Compra/CompraConEnvioYGarantia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/AlgoBay/AlgoBayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TP1-master/AlgoBay/AlgoBayTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Compra/CompraConEnvioYGarantia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Compra/CompraConEnvioYGarantia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTestPropio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/AlgoBay/AlgoBayTestPropio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP1-master/AlgoBay/AlgoBay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1-master/AlgoBay/AlgoBay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/AlgoBay/AlgoBayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/TP1-master/AlgoBay/AlgoBayTestPropio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgoBay/AlgoBay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Compra/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Compra/Compra.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +71,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="Cupones" />
       <recent name="Adicionales" />
+      <recent name="Cupones" />
       <recent name="Compra" />
       <recent name="AlgoBay" />
       <recent name="Producto" />
@@ -81,6 +82,22 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.All in TP1-master">
+    <configuration name="AlgoBayTestPropio.test06CreamosCuponConPorcentajeDedescuento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP1-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AlgoBay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AlgoBay" />
+      <option name="MAIN_CLASS_NAME" value="AlgoBay.AlgoBayTestPropio" />
+      <option name="METHOD_NAME" value="test06CreamosCuponConPorcentajeDedescuento" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AlgoBayTest.test06EnvioBonificadoComprasMayoresA5000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <extension name="coverage">
@@ -97,6 +114,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AlgoBayTest.test07CuponDescuento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP1-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AlgoBay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AlgoBay" />
+      <option name="MAIN_CLASS_NAME" value="AlgoBay.AlgoBayTest" />
+      <option name="METHOD_NAME" value="test07CuponDescuento" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in TP1-master" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <option name="PACKAGE_NAME" value="" />
@@ -105,49 +138,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompraConEnvioYGarantiaTest.test05Agregamos3ProductosAlaCompra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CuponesTest.test01CreamosInstanciaDeCupones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Compra.*" />
+          <option name="PATTERN" value="Adicionales.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Compra" />
-      <option name="MAIN_CLASS_NAME" value="Compra.CompraConEnvioYGarantiaTest" />
-      <option name="METHOD_NAME" value="test05Agregamos3ProductosAlaCompra" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompraConEnvioYGarantiaTest.test06Agregamos3ProductosAlaCompraYVerificamosElPrecioFinalConEnvioYGarantia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP1-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Compra.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Compra" />
-      <option name="MAIN_CLASS_NAME" value="Compra.CompraConEnvioYGarantiaTest" />
-      <option name="METHOD_NAME" value="test06Agregamos3ProductosAlaCompraYVerificamosElPrecioFinalConEnvioYGarantia" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CuponTest.test01CreamosInstanciaDeCupon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP1-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Cupones.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Cupones" />
-      <option name="MAIN_CLASS_NAME" value="Cupones.CuponTest" />
-      <option name="METHOD_NAME" value="test01CreamosInstanciaDeCupon" />
+      <option name="PACKAGE_NAME" value="Adicionales" />
+      <option name="MAIN_CLASS_NAME" value="Adicionales.CuponesTest" />
+      <option name="METHOD_NAME" value="test01CreamosInstanciaDeCupones" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,10 +157,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in TP1-master" />
-        <item itemvalue="JUnit.CuponTest.test01CreamosInstanciaDeCupon" />
+        <item itemvalue="JUnit.AlgoBayTest.test07CuponDescuento" />
+        <item itemvalue="JUnit.CuponesTest.test01CreamosInstanciaDeCupones" />
+        <item itemvalue="JUnit.AlgoBayTestPropio.test06CreamosCuponConPorcentajeDedescuento" />
         <item itemvalue="JUnit.AlgoBayTest.test06EnvioBonificadoComprasMayoresA5000" />
-        <item itemvalue="JUnit.CompraConEnvioYGarantiaTest.test06Agregamos3ProductosAlaCompraYVerificamosElPrecioFinalConEnvioYGarantia" />
-        <item itemvalue="JUnit.CompraConEnvioYGarantiaTest.test05Agregamos3ProductosAlaCompra" />
       </list>
     </recent_temporary>
   </component>
@@ -225,10 +226,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="se agregan monton d epruebas" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="120" y="112" width="1296" height="598" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1598381953231">
+    <state x="120" y="112" width="1296" height="598" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1598386889729">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="120" y="112" width="1296" height="598" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1598381953231" />
+    <state x="120" y="112" width="1296" height="598" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1598386889729" />
     <state x="100" y="123" width="1080" height="533" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.735@0.23.1280.735" timestamp="1594997997022" />
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1598225111952">
       <screen x="0" y="0" width="1536" height="824" />
@@ -263,38 +264,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596655168295" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1598382186528">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1598451168410">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598382186528" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598451168410" />
     <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.733@0.23.1280.733" timestamp="1598052446967" />
     <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.734@0.23.1280.734" timestamp="1596825356152" />
     <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.735@0.23.1280.735" timestamp="1595016449733" />
     <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.736@0.23.1280.736" timestamp="1594940347691" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1598382186528">
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1598451168410">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598382186528" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598451168410" />
     <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.733@0.23.1280.733" timestamp="1598052446966" />
     <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.734@0.23.1280.734" timestamp="1596825356151" />
     <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.735@0.23.1280.735" timestamp="1595016449733" />
     <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.736@0.23.1280.736" timestamp="1594940347690" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1598382186528">
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1598451168410">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598382186528" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598451168410" />
     <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.733@0.23.1280.733" timestamp="1598052446966" />
     <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.734@0.23.1280.734" timestamp="1596825356150" />
     <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.735@0.23.1280.735" timestamp="1595016449732" />
     <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.736@0.23.1280.736" timestamp="1594940347689" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1598382186528">
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1598451168410">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594766198253" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598382186528" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598451168410" />
     <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.733@0.23.1280.733" timestamp="1598052446966" />
     <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.734@0.23.1280.734" timestamp="1596825356152" />
     <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.735@0.23.1280.735" timestamp="1595016449733" />
@@ -346,11 +347,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1597168276311" />
-    <state x="510" y="76" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1598382747884">
+    <state x="510" y="76" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1598451472846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="454" y="67" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1594766140344" />
-    <state x="510" y="76" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1598382747884" />
+    <state x="510" y="76" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1598451472846" />
     <state x="425" y="91" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.733@0.23.1280.733" timestamp="1598052174181" />
     <state x="425" y="91" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.735@0.23.1280.735" timestamp="1594837397111" />
     <state x="335" y="141" width="865" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1596565618282">

@@ -1,6 +1,7 @@
 package AlgoBay;
 
 import Compra.Compra;
+import Cupones.Cupon;
 import Excepciones.ErrorProductoNoEstaEnProductos;
 import Producto.Producto;
 import org.junit.Assert;
@@ -124,12 +125,30 @@ public class AlgoBayTest {
         algoBay.agregarProductoEnCompra(zapatilla, compraConEnvioYGarantia);
         algoBay.agregarProductoEnCompra(celular, compraConEnvioYGarantia);
 
-        Assert.assertEquals((6000 * 1.1)+0,
+        Assert.assertEquals((int)(6000 * 1.1)+0,
                 algoBay.getPrecioTotalDe(compraConEnvioYGarantia),
                 DELTA);
     }
 
 //--------------------------------------------------
+
+    @Test
+    public void test07CuponDescuento() {
+
+        AlgoBay algoBay = new AlgoBay();
+
+        Producto zapatilla = algoBay.agregarProductoConPrecio("Zapatilla", 2000);
+
+        Compra compraConEnvio = algoBay.crearNuevaCompraConEnvio();
+        Cupon cupon20Porciento = algoBay.crearCuponConPorcentaje(20);
+
+        algoBay.agregarCuponEnCompra(cupon20Porciento, compraConEnvio);
+        algoBay.agregarProductoEnCompra(zapatilla, compraConEnvio);
+
+        Assert.assertEquals((2000 + 100) * 0.8,
+                algoBay.getPrecioTotalDe(compraConEnvio),
+                DELTA);
+    }
 
 //--------------------------------------------------
 

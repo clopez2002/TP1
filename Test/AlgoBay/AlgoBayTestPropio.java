@@ -3,6 +3,7 @@ package AlgoBay;
 
 import Compra.Compra;
 import Compra.CompraSimple;
+import Cupones.Cupon;
 import Producto.Producto;
 import org.junit.Assert;
 import org.junit.Test;
@@ -68,6 +69,14 @@ public class AlgoBayTestPropio {
 
 
 //--------------------------------------------------
+
+    @Test
+    public void test06CreamosCuponConPorcentajeDedescuento () {
+
+        AlgoBay algoBay = new AlgoBay();
+        Cupon cupon = algoBay.crearCuponConPorcentaje(15);
+        Assert.assertNotNull(cupon);
+    }
 
 //--------------------------------------------------
 

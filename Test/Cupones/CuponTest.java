@@ -18,6 +18,13 @@ public class CuponTest {
 
 //--------------------------------------------------
 
+    @Test
+    public void test02ObtenemosDescuentoDelCupon () {
+
+        Cupon cupon = new Cupon(15);
+        Assert.assertEquals(15,cupon.obtenerDescuento());
+    }
+
 //--------------------------------------------------
 
 //--------------------------------------------------

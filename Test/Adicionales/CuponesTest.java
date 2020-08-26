@@ -2,30 +2,32 @@ package Adicionales;
 
 import org.junit.Assert;
 import org.junit.Test;
+import Cupones.Cupon;
 
 import static org.junit.Assert.*;
 
-public class DescuentoTest {
+public class CuponesTest {
 
 //-------------------------------------------------------------------
 
     @Test
-    public void test01CreamosInstanciaDeDescuento () {
+    public void test01CreamosInstanciaDeCupones () {
 
-        Descuento descuento = new Descuento(20);
-        Assert.assertNotNull(descuento);
+        Cupones cupones = new Cupones();
+        Assert.assertNotNull(cupones);
     }
 
 //-------------------------------------------------------------------
 
     @Test
-    public void test02ObtenemosDescuento () {
+    public void test02AgregamosCupon () {
 
-        Descuento descuento = new Descuento(15);
-        Assert.assertEquals(15,descuento.obtenerDescuento());
+        Cupones cupones = new Cupones();
+        Cupon cupon = new Cupon(15);
+        cupones.agregarCupon(cupon);
+        Assert.assertEquals(1,cupones.cuantosCuponesTengo());
     }
 
-
 //-------------------------------------------------------------------
 
 //-------------------------------------------------------------------
@@ -35,13 +37,5 @@ public class DescuentoTest {
 //-------------------------------------------------------------------
 
 //-------------------------------------------------------------------
-
-//-------------------------------------------------------------------
-
-//-------------------------------------------------------------------
-
-//-------------------------------------------------------------------
-
-
 
 }

@@ -5,6 +5,7 @@ import Compra.CompraSimple;
 import Compra.CompraConEnvio;
 import Compra.CompraConGarantia;
 import Compra.CompraConEnvioYGarantia;
+import Cupones.Cupon;
 import Excepciones.ErrorProductoNoEstaEnProductos;
 import Producto.Producto;
 
@@ -91,5 +92,27 @@ public class AlgoBay {
 
 
 //--------------------------------------------------
+
+    public Cupon crearCuponConPorcentaje (int porcentajeDeDescuento)
+    {
+        return new Cupon(porcentajeDeDescuento);
+    }
+
+//--------------------------------------------------
+
+    public void agregarCuponEnCompra (Cupon unCupon, Compra unaCompra)
+    {
+        unaCompra.agregarCuponEnCompra (unCupon);
+    }
+
+//--------------------------------------------------
+
+//--------------------------------------------------
+
+//--------------------------------------------------
+
+//--------------------------------------------------
+
+
 
 }

@@ -152,6 +152,28 @@ public class AlgoBayTest {
 
 //--------------------------------------------------
 
+    @Test
+    public void test08CuponesNoSonAcumulablesValeElMayor() {
+
+        AlgoBay algoBay = new AlgoBay();
+
+        Producto zapatilla = algoBay.agregarProductoConPrecio("Zapatilla", 2000);
+        Compra compra = algoBay.crearNuevaCompra();
+        Cupon cupon20Porciento = algoBay.crearCuponConPorcentaje(20);
+        Cupon cupon25Porciento = algoBay.crearCuponConPorcentaje(25);
+        Cupon cupon30Porciento = algoBay.crearCuponConPorcentaje(30);
+
+        algoBay.agregarCuponEnCompra(cupon20Porciento, compra);
+        algoBay.agregarCuponEnCompra(cupon25Porciento, compra);
+        algoBay.agregarCuponEnCompra(cupon30Porciento, compra);
+
+        algoBay.agregarProductoEnCompra(zapatilla,compra);
+
+        Assert.assertEquals(2000 * 0.7,
+                algoBay.getPrecioTotalDe(compra),
+                DELTA);
+    }
+
 //--------------------------------------------------
 
 //--------------------------------------------------

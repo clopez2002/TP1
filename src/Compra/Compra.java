@@ -46,8 +46,15 @@ public abstract class Compra implements iCobrable{
     public int getPrecioTotalDe ()
     {
         int totalDeLosProductos = 0;
+        int precioConExtras = 0;
+        int precioFinal = 0;
         totalDeLosProductos = productosDeLaCompra.getPrecioTotalDe();
-        return this.cobrarExtras(totalDeLosProductos);
+        precioConExtras =  this.cobrarExtras(totalDeLosProductos);
+        if (cupones.tengoCupones())
+            return  cupones.efectuarDescuento (precioConExtras);
+        else
+            return precioConExtras;
+
     }
 
 //--------------------------------------------------
